@@ -5,3 +5,6 @@
 This repo is just to grab the data as a csv file and do a little exploration with python scripts.
 
 The data can be found at the following link: http://interactive.guim.co.uk/2015/the-counted/thecounted-data.zip
+
+### Data Updates
+- Updated csv on 2015-06-23 21:32:58.618100
