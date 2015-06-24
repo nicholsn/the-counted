@@ -23,7 +23,8 @@ with zipfile.ZipFile(counted_zip) as fi:
     fi.extract(counted_csv)
     os.remove(counted_zip)
 
-with open('README.md') as fi:
+with open('README.md', 'w') as fi:
     print "Updating README.md"
     dt = datetime.datetime.now()
     message = "\n- Updated csv on {0}".format(dt)
+    fi.write(message)
