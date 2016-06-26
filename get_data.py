@@ -11,7 +11,7 @@ import requests
 
 link = 'http://interactive.guim.co.uk/2015/the-counted/thecounted-data.zip'
 counted_zip = 'thecounted-data.zip'
-counted_csv = 'the-counted.csv'
+counted_csv = 'the-counted-2016.csv'
 
 with open(counted_zip, 'wb') as fi:
     print "Downloading {0}".format(link)
