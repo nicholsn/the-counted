@@ -4,7 +4,9 @@
 
 This repo is just to grab the data as a csv file and do a little exploration with python scripts.
 
-The data can be found at the following link: http://interactive.guim.co.uk/2015/the-counted/thecounted-data.zip
+The source data can be found at the following link: http://interactive.guim.co.uk/2015/the-counted/thecounted-data.zip
+
+Also available is an [RDF Data Cube](https://dvcs.w3.org/hg/gld/raw-file/default/data-cube/index.html) at: https://cdn.rawgit.com/nicholsn/the-counted/master/the-counted-2016.ttl
 
 ### Data Updates
 - Updated csv on 2015-06-23 21:32:58.618100

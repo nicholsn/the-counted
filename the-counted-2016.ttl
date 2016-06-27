@@ -1,3 +1,4 @@
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix obo: <http://purl.obolibrary.org/obo/> .
@@ -856,11 +857,11 @@
     qb:observation <0ab16fcf0ef2e2cac43d70cdb7ab430cd95ac8df>,
         <6c79b96e79bed2deb4299e8c48a4ce6aa6a4d9b2>,
         <9d578ab2afbdc575c233e4091d75c4f26f8ea710>,
-        iri:b43defc13a93e6f4634f26b9e0a53235376bc382,
-        iri:d1eeb134fd4196d07425328c024ba800b752dbdd,
-        iri:d598d8a139a706c7fde26497cf84c55c566b1428,
-        iri:d7c574025e9a21ed68f9718727165569eb86145c,
-        iri:ead93f5f03020e08e49df9bc54ee470ef09496c0 ;
+        :b43defc13a93e6f4634f26b9e0a53235376bc382,
+        :d1eeb134fd4196d07425328c024ba800b752dbdd,
+        :d598d8a139a706c7fde26497cf84c55c566b1428,
+        :d7c574025e9a21ed68f9718727165569eb86145c,
+        :ead93f5f03020e08e49df9bc54ee470ef09496c0 ;
     qb:sliceStructure :the--datadict.csv ;
     :gender :gender-female ;
     :race_ethnicity :race-ethnicity-black .
@@ -1745,82 +1746,82 @@
         <9b084bd5ac340ca57e4680993e63a498d0291c82>,
         <9e387710e89d8af1f56d26b8dc0c6092d328a51a>,
         <9efd54838b9d3d332526b8e40ad9f3377f82b6fd>,
-        iri:a05e6cd7ada21e32a61d4dbd8df293a327ad04c1,
-        iri:a0dbd814acef27bb42991ac4945dfe84604d60f0,
-        iri:a1cd6668ba1410166a2f2c55b096a52be80fbf87,
-        iri:a2907388f92df1808c29fc417c559284f8e9cef2,
-        iri:a373fbfa1606806c7745f0b61ffc50f478efcc87,
-        iri:a8b808cbfce0e19a319d9a5111d6d35cb9de15a3,
-        iri:a938c378b7753fc438637071e4a9ccd2e3ae7112,
-        iri:a945a313328c95ee69e2009aec7636a97853b53f,
-        iri:aa74361c11a8e4527799f24ce64a1abf362f956f,
-        iri:ac0a5b3b4b4e4ba4206147a64a430fc329760510,
-        iri:aca8ee3e7bc14e38508a6f77ea5acf9f5eec2a0c,
-        iri:ae1142eec81dd73e348ba0c887d2759d1e65ec93,
-        iri:aff07bcad55d4cd65025bfc6392fc0479f4877ff,
-        iri:b2cf52f01a659ab9868ea373c50eb7defdd95273,
-        iri:b2ff0dc53c96632bf75e01c6bcc6f07641bb6c2e,
-        iri:b37f9ec50560b6380ffb722ad585af5d0d1f8292,
-        iri:b3c78c8bb0f7cb288d8d5045d3d49972b9db2752,
-        iri:b3f868577e6ce76bf962d639e792598bad2f6890,
-        iri:b923587d4bcb1e375550a8a927b058f18ec1a83b,
-        iri:b99c54f57793590aeeb2c9adaf9710e99af97584,
-        iri:bc4e72f05fff878fac5ca865060899c7190057f1,
-        iri:be12f9e6adfc2da414cac8b72e0ea45562fe6f58,
-        iri:be514be0f3799f0bcb490905e7d9fd88b5e247bf,
-        iri:bea3a81bdb2489faa8add8974da75fadfeff6678,
-        iri:bf347a880621ccc951423ee4af04e3c7991c8a73,
-        iri:c024b1024d9b3b3eb0aaa9583b277ad93ec37710,
-        iri:c1c8b656d6036dba10c0b2b624eb43ce8c09878a,
-        iri:c56937898b69cca8414df840d0e027c593ff918e,
-        iri:c56de1e8d3a9d5b3ff01bca50534768fad36ddec,
-        iri:c5d326a068fb2a1717ba21a1e26937054a4e7640,
-        iri:c5fded484c481e99953b6f0634dacd353e2a2cdc,
-        iri:c7586160282f376f9308fe849dfa7d24f1482bbe,
-        iri:c7da96ac15f957ec6a7d8d1dcc188a0edbbf4d84,
-        iri:c8bfa06d77d10d3ed1ff42e470a6604f99a0a9a2,
-        iri:ca836328f64c4a649163e5c4b0c6302bd687d727,
-        iri:cae7cb3f9e352e6a388721389cee9a15536772b7,
-        iri:cb6c871db5152d9baff9363bc37a7685c687f88b,
-        iri:cc6edf61b9263ef76201a3f797cc576e8156609f,
-        iri:cc7f8966eb68748ddbbff5d59418910976862255,
-        iri:ccda18ba6dde7c59b06a1dd6521267b3985f6c19,
-        iri:cf9019c8d8531a97115e62498902995efa8973de,
-        iri:d09160bf25c9ed02f3bf1be6ad7619107e55617f,
-        iri:d0df93cbab36aa47beab818b074d28baa71f9a73,
-        iri:d19f40656cb047d1549e62afdedd6146f7ffc184,
-        iri:d1cb82e403c9a6ffac1cac435aab01008b8d780d,
-        iri:d28af2a319eefe04c3369f32774828cdb228b3fd,
-        iri:d2f39b9993b6aa124d11596fb42a9bac1502266f,
-        iri:d3540581f52a8df5a0d644ef78150f1ca5595a37,
-        iri:d41fe2d40e115bf17a02f661fdd76d9ac56642c0,
-        iri:d8cfd102cdd40ee0b4ca316c83d8413af2d350a7,
-        iri:da69116886ec851845d4354e0a9e6db2c290ac31,
-        iri:dd9015e3669e98be5c9f95d238d9a1e83cfc0e25,
-        iri:ddb2981879cd0dd1328d70188e77884f24f4003f,
-        iri:e060ddb1fe973fdbbe5a8750b47c69fb93c2ab08,
-        iri:e1083071e01d95a8b5a34725cef79ad5d6c55b24,
-        iri:e11d4294bf25ca965ad3abbbc67d814e5007c570,
-        iri:e216e97c6bea48906031396ec25ad93b216c387e,
-        iri:e48da7142f3f98ceec384060aa137112139aa30a,
-        iri:e4ca0b68aab3472813865fcd6c422045d7a2a565,
-        iri:e9fc733e43360b3ee2851dbe2918c77b943a75e1,
-        iri:ea0e8f9dd4a44742efc74a3a72f72b849e8c48be,
-        iri:ec499570490ed1d7636d1c40f3abbc6170a77067,
-        iri:edc35748eeeb63b9090c322ea27265fd66c8f754,
-        iri:ee205dd91d21fa640b64c339152f037b0581c97f,
-        iri:f01985dd06282779c8b2b70d52e7eadd9fe5328f,
-        iri:f2073fa588336ecc9fd1f8d0e85ce1447c4a4bc5,
-        iri:f2b2b411f2c1f1d79d627eae94a82a04719be320,
-        iri:f2c42f99df3b7cf41bce7d43c9103b4fc6a3947c,
-        iri:f4f600a4be048c88a0d36bb392e9eb8613dc84ef,
-        iri:f7fb48167429e07acc80c3e0329fc4e0998ca563,
-        iri:f826feb380b31c8f8c76535edc9e15f34a0dd7ec,
-        iri:f8ff6151a30321a361476c13cc0c70004ee43ad8,
-        iri:fa3bb64301a19aefb916cf06f8d937f0e0f45570,
-        iri:fa86ad71299219daad2192223629d5d260192245,
-        iri:fbce1b243ec1ad6de49dee750e28a8097eb4f286,
-        iri:fc4f925cb44666af4e62ec47aa300408a3862ee2 ;
+        :a05e6cd7ada21e32a61d4dbd8df293a327ad04c1,
+        :a0dbd814acef27bb42991ac4945dfe84604d60f0,
+        :a1cd6668ba1410166a2f2c55b096a52be80fbf87,
+        :a2907388f92df1808c29fc417c559284f8e9cef2,
+        :a373fbfa1606806c7745f0b61ffc50f478efcc87,
+        :a8b808cbfce0e19a319d9a5111d6d35cb9de15a3,
+        :a938c378b7753fc438637071e4a9ccd2e3ae7112,
+        :a945a313328c95ee69e2009aec7636a97853b53f,
+        :aa74361c11a8e4527799f24ce64a1abf362f956f,
+        :ac0a5b3b4b4e4ba4206147a64a430fc329760510,
+        :aca8ee3e7bc14e38508a6f77ea5acf9f5eec2a0c,
+        :ae1142eec81dd73e348ba0c887d2759d1e65ec93,
+        :aff07bcad55d4cd65025bfc6392fc0479f4877ff,
+        :b2cf52f01a659ab9868ea373c50eb7defdd95273,
+        :b2ff0dc53c96632bf75e01c6bcc6f07641bb6c2e,
+        :b37f9ec50560b6380ffb722ad585af5d0d1f8292,
+        :b3c78c8bb0f7cb288d8d5045d3d49972b9db2752,
+        :b3f868577e6ce76bf962d639e792598bad2f6890,
+        :b923587d4bcb1e375550a8a927b058f18ec1a83b,
+        :b99c54f57793590aeeb2c9adaf9710e99af97584,
+        :bc4e72f05fff878fac5ca865060899c7190057f1,
+        :be12f9e6adfc2da414cac8b72e0ea45562fe6f58,
+        :be514be0f3799f0bcb490905e7d9fd88b5e247bf,
+        :bea3a81bdb2489faa8add8974da75fadfeff6678,
+        :bf347a880621ccc951423ee4af04e3c7991c8a73,
+        :c024b1024d9b3b3eb0aaa9583b277ad93ec37710,
+        :c1c8b656d6036dba10c0b2b624eb43ce8c09878a,
+        :c56937898b69cca8414df840d0e027c593ff918e,
+        :c56de1e8d3a9d5b3ff01bca50534768fad36ddec,
+        :c5d326a068fb2a1717ba21a1e26937054a4e7640,
+        :c5fded484c481e99953b6f0634dacd353e2a2cdc,
+        :c7586160282f376f9308fe849dfa7d24f1482bbe,
+        :c7da96ac15f957ec6a7d8d1dcc188a0edbbf4d84,
+        :c8bfa06d77d10d3ed1ff42e470a6604f99a0a9a2,
+        :ca836328f64c4a649163e5c4b0c6302bd687d727,
+        :cae7cb3f9e352e6a388721389cee9a15536772b7,
+        :cb6c871db5152d9baff9363bc37a7685c687f88b,
+        :cc6edf61b9263ef76201a3f797cc576e8156609f,
+        :cc7f8966eb68748ddbbff5d59418910976862255,
+        :ccda18ba6dde7c59b06a1dd6521267b3985f6c19,
+        :cf9019c8d8531a97115e62498902995efa8973de,
+        :d09160bf25c9ed02f3bf1be6ad7619107e55617f,
+        :d0df93cbab36aa47beab818b074d28baa71f9a73,
+        :d19f40656cb047d1549e62afdedd6146f7ffc184,
+        :d1cb82e403c9a6ffac1cac435aab01008b8d780d,
+        :d28af2a319eefe04c3369f32774828cdb228b3fd,
+        :d2f39b9993b6aa124d11596fb42a9bac1502266f,
+        :d3540581f52a8df5a0d644ef78150f1ca5595a37,
+        :d41fe2d40e115bf17a02f661fdd76d9ac56642c0,
+        :d8cfd102cdd40ee0b4ca316c83d8413af2d350a7,
+        :da69116886ec851845d4354e0a9e6db2c290ac31,
+        :dd9015e3669e98be5c9f95d238d9a1e83cfc0e25,
+        :ddb2981879cd0dd1328d70188e77884f24f4003f,
+        :e060ddb1fe973fdbbe5a8750b47c69fb93c2ab08,
+        :e1083071e01d95a8b5a34725cef79ad5d6c55b24,
+        :e11d4294bf25ca965ad3abbbc67d814e5007c570,
+        :e216e97c6bea48906031396ec25ad93b216c387e,
+        :e48da7142f3f98ceec384060aa137112139aa30a,
+        :e4ca0b68aab3472813865fcd6c422045d7a2a565,
+        :e9fc733e43360b3ee2851dbe2918c77b943a75e1,
+        :ea0e8f9dd4a44742efc74a3a72f72b849e8c48be,
+        :ec499570490ed1d7636d1c40f3abbc6170a77067,
+        :edc35748eeeb63b9090c322ea27265fd66c8f754,
+        :ee205dd91d21fa640b64c339152f037b0581c97f,
+        :f01985dd06282779c8b2b70d52e7eadd9fe5328f,
+        :f2073fa588336ecc9fd1f8d0e85ce1447c4a4bc5,
+        :f2b2b411f2c1f1d79d627eae94a82a04719be320,
+        :f2c42f99df3b7cf41bce7d43c9103b4fc6a3947c,
+        :f4f600a4be048c88a0d36bb392e9eb8613dc84ef,
+        :f7fb48167429e07acc80c3e0329fc4e0998ca563,
+        :f826feb380b31c8f8c76535edc9e15f34a0dd7ec,
+        :f8ff6151a30321a361476c13cc0c70004ee43ad8,
+        :fa3bb64301a19aefb916cf06f8d937f0e0f45570,
+        :fa86ad71299219daad2192223629d5d260192245,
+        :fbce1b243ec1ad6de49dee750e28a8097eb4f286,
+        :fc4f925cb44666af4e62ec47aa300408a3862ee2 ;
     qb:sliceStructure :the--datadict.csv ;
     :gender :gender-male ;
     :race_ethnicity :race-ethnicity-white .
@@ -2172,7 +2173,7 @@
 
 <389a4d1cde76ab7da1721e542579a6ff70de1b5c> a qb:Slice ;
     qb:observation <87157db1c856d99d40c7356b7a004fa8b154c3ac>,
-        iri:ab321d65a75f2b4262306528075b9bd937b3270c ;
+        :ab321d65a75f2b4262306528075b9bd937b3270c ;
     qb:sliceStructure :the--datadict.csv ;
     :gender :gender-male ;
     :race_ethnicity :race-ethnicity-arab-american .
@@ -2810,36 +2811,36 @@
         <9c04bce1df9351b6990feaee148fd50ebcaac5d2>,
         <9e4186675d7c4e97397b5db31035b3c9e2361aa5>,
         <9e940bc34e8bdd84f459dd5a127cfecaeec76b72>,
-        iri:a1492571dd34f55571cb58162de1156b68cb3fed,
-        iri:b4aed9ce663a020888f8e8abdc3298ab7332007c,
-        iri:bae60e4cf3e75522b2a819d6552c3bc260e512e9,
-        iri:bc1cc9c98b05127f45c8454e63ad02740eb6abc6,
-        iri:bdb6a044ef2e0dfd601e3d3f9e23026bfe02241a,
-        iri:bfb987377d2c21f3b1a6fbfbdf01aa2f230fba7d,
-        iri:c197e4a84629766a442284d75068439f168cdd03,
-        iri:c2051e7cfc19e988805ee510bb60f17ee11eae0a,
-        iri:cfad81f322047e1dc7860ed6530cf583ec1723e5,
-        iri:d2e8630fd551bae4443ab36924e7c939b263b35e,
-        iri:d3c19c9a065ee2d49d5a57c88774fb555ad0ae0d,
-        iri:d4bcf95b5de5115f6e1bf693ee38f23c9910f3bf,
-        iri:d705970011b84d383aa3383d664c40dfd8f237bf,
-        iri:d7b0ca0aa74629afb033e7728e3e3299c0645517,
-        iri:d97c4c341a67cfd8da1c7960789b6a90ac8d1a8c,
-        iri:e65a2518c397df767c6933b134d806d95e36465b,
-        iri:e9b39d2f1f4a271858bdbb5476a3d3c407d240ee,
-        iri:eab66d7226adcb9fa35864281e16b57d2d010bb3,
-        iri:ee6d3b4f246df8d10a075c770f6f0907d912248e,
-        iri:f1d35c57543ca9423719cc1c5c1b83a34cc06839,
-        iri:f4038eaf35b633366fab36397297b2214cb53e72,
-        iri:f453332c2e79a1c84eacb9d206b9f8851d248f13,
-        iri:f739e4cdffd6146b800a585e7cb720c66c83836d,
-        iri:f793b6db327ffe4ab97fa07c7bc51a5e21e89cd3,
-        iri:f83153e76f362153676651e85272895aa567515c,
-        iri:f855e5bb7ba960d210397659796b17b4201f586f,
-        iri:fbc130f41f85921b7518ea93964cacacdd24c333,
-        iri:fcc67e64f80ebfe01ae33ce2af59187958231a4c,
-        iri:fda7caaaa70a8e17ed808143ba5339126eaac006,
-        iri:ff4877e2680dbffe14bb4eb1c7d8b4eae39d85a8 ;
+        :a1492571dd34f55571cb58162de1156b68cb3fed,
+        :b4aed9ce663a020888f8e8abdc3298ab7332007c,
+        :bae60e4cf3e75522b2a819d6552c3bc260e512e9,
+        :bc1cc9c98b05127f45c8454e63ad02740eb6abc6,
+        :bdb6a044ef2e0dfd601e3d3f9e23026bfe02241a,
+        :bfb987377d2c21f3b1a6fbfbdf01aa2f230fba7d,
+        :c197e4a84629766a442284d75068439f168cdd03,
+        :c2051e7cfc19e988805ee510bb60f17ee11eae0a,
+        :cfad81f322047e1dc7860ed6530cf583ec1723e5,
+        :d2e8630fd551bae4443ab36924e7c939b263b35e,
+        :d3c19c9a065ee2d49d5a57c88774fb555ad0ae0d,
+        :d4bcf95b5de5115f6e1bf693ee38f23c9910f3bf,
+        :d705970011b84d383aa3383d664c40dfd8f237bf,
+        :d7b0ca0aa74629afb033e7728e3e3299c0645517,
+        :d97c4c341a67cfd8da1c7960789b6a90ac8d1a8c,
+        :e65a2518c397df767c6933b134d806d95e36465b,
+        :e9b39d2f1f4a271858bdbb5476a3d3c407d240ee,
+        :eab66d7226adcb9fa35864281e16b57d2d010bb3,
+        :ee6d3b4f246df8d10a075c770f6f0907d912248e,
+        :f1d35c57543ca9423719cc1c5c1b83a34cc06839,
+        :f4038eaf35b633366fab36397297b2214cb53e72,
+        :f453332c2e79a1c84eacb9d206b9f8851d248f13,
+        :f739e4cdffd6146b800a585e7cb720c66c83836d,
+        :f793b6db327ffe4ab97fa07c7bc51a5e21e89cd3,
+        :f83153e76f362153676651e85272895aa567515c,
+        :f855e5bb7ba960d210397659796b17b4201f586f,
+        :fbc130f41f85921b7518ea93964cacacdd24c333,
+        :fcc67e64f80ebfe01ae33ce2af59187958231a4c,
+        :fda7caaaa70a8e17ed808143ba5339126eaac006,
+        :ff4877e2680dbffe14bb4eb1c7d8b4eae39d85a8 ;
     qb:sliceStructure :the--datadict.csv ;
     :gender :gender-male ;
     :race_ethnicity :race-ethnicity-hispanic-latino .
@@ -3168,26 +3169,26 @@
         <82cec01c3f217bcef2c43f6c340080974288bf23>,
         <9ae0869429d4dee38060983b2997a1e3906c7cef>,
         <9b05fd7a8c88c88f80ceeca3b514d39114fabc90>,
-        iri:a8a5d4d5bf25136e08f98d3f2ff5357d8fead92f,
-        iri:aa047c97b8aec9c30578450783a82f6d9562087f,
-        iri:ace6b72756caab9c3636f7c40f47b33662b0e91f,
-        iri:adbb831dc0f43f4a04fb3540d4d2c3db619a36a7,
-        iri:b0d0be013ae5c08dfb17f3fb45623fae08ab52e0,
-        iri:b2989b82d8cd52007a5e1997f4726a270658963c,
-        iri:b30019070a5442d1b96310ac35f2b81f0d6c4c6e,
-        iri:ba1298ae1a8dcedce97216cf650950681ddccd4e,
-        iri:beefdf9a6a0742128fe5ac183db1733f849b7cc7,
-        iri:bf7742e70e0462e04792df39ab62249720896d4f,
-        iri:c07f8ff69b141fca14a0c932a28e7c2902fdccad,
-        iri:cdf44befa4e6e758113a776697069ce4edf7c8b9,
-        iri:d141888dd3f1d37d048676fb861e60e708083d08,
-        iri:d5ffd18eac80b07e06aad25b9967697a51afc040,
-        iri:ed313f628401c3112215b2b3146b66cce5e7c703,
-        iri:ed65135ffaa46d80a9286c97b9ea2dc26ccca35a,
-        iri:f030e46dec558d81d8dbb525154da03cec01c69c,
-        iri:f5b8fb0564c5f4cdd24879be10b4475ec1f8e86d,
-        iri:fd631343fc277125e275f61ffa86e008bea9051c,
-        iri:ff8948465eb64afb792ebf990f20246289fc7dba ;
+        :a8a5d4d5bf25136e08f98d3f2ff5357d8fead92f,
+        :aa047c97b8aec9c30578450783a82f6d9562087f,
+        :ace6b72756caab9c3636f7c40f47b33662b0e91f,
+        :adbb831dc0f43f4a04fb3540d4d2c3db619a36a7,
+        :b0d0be013ae5c08dfb17f3fb45623fae08ab52e0,
+        :b2989b82d8cd52007a5e1997f4726a270658963c,
+        :b30019070a5442d1b96310ac35f2b81f0d6c4c6e,
+        :ba1298ae1a8dcedce97216cf650950681ddccd4e,
+        :beefdf9a6a0742128fe5ac183db1733f849b7cc7,
+        :bf7742e70e0462e04792df39ab62249720896d4f,
+        :c07f8ff69b141fca14a0c932a28e7c2902fdccad,
+        :cdf44befa4e6e758113a776697069ce4edf7c8b9,
+        :d141888dd3f1d37d048676fb861e60e708083d08,
+        :d5ffd18eac80b07e06aad25b9967697a51afc040,
+        :ed313f628401c3112215b2b3146b66cce5e7c703,
+        :ed65135ffaa46d80a9286c97b9ea2dc26ccca35a,
+        :f030e46dec558d81d8dbb525154da03cec01c69c,
+        :f5b8fb0564c5f4cdd24879be10b4475ec1f8e86d,
+        :fd631343fc277125e275f61ffa86e008bea9051c,
+        :ff8948465eb64afb792ebf990f20246289fc7dba ;
     qb:sliceStructure :the--datadict.csv ;
     :gender :gender-male ;
     :race_ethnicity () .
@@ -4082,8 +4083,8 @@
         <509e006b461e26b669a25a5c3da59493b4c69625>,
         <5c61cffe9e821ba6b53226a7484ec44f35c2d841>,
         <714fd243ca6a2eb659c3124bda9915bfb977fac4>,
-        iri:ac0c1a5d7a31a4a7d85edfaf3fa8340b94db0b7f,
-        iri:c35c5f8228ae562477d2561e90e162af6dff986f ;
+        :ac0c1a5d7a31a4a7d85edfaf3fa8340b94db0b7f,
+        :c35c5f8228ae562477d2561e90e162af6dff986f ;
     qb:sliceStructure :the--datadict.csv ;
     :gender :gender-male ;
     :race_ethnicity :race-ethnicity-native-american .
@@ -5070,16 +5071,16 @@
         <553bdac9b67d9481fe46b3c876acc786001b8472>,
         <5dcaff37c43e69f032d66fbef1a895ca616b0eac>,
         <8e1a7bfdb11cbab65ab8276ee3388dc8829e7df6>,
-        iri:a0cc1354009d72306cacb3fe948d702c9e4ea7c6,
-        iri:ab428f85c92e273c8b6adf395ecd989d9e556098,
-        iri:cc2a2167cb531d687bb376d86ed2d0fc87183f15,
-        iri:da0b03179ba0e42f2fe98cdc73696b77c2c924cd,
-        iri:db9a865bc4060fbd2d97da4f9e578e6b61156bb7,
-        iri:dc63cf6d4b1c06b993d9cc671896770a04d64300,
-        iri:dd7aba0c69fe81e6036617c19976b624a17f9faf,
-        iri:e8f5d6f0c9e9980db9583e2934b82351b5d43702,
-        iri:e9a108c9ff05b57429c2e400ac0debaacf5f62d3,
-        iri:f9547ef9d3c22fe6dae73eb054f26f3a195e1289 ;
+        :a0cc1354009d72306cacb3fe948d702c9e4ea7c6,
+        :ab428f85c92e273c8b6adf395ecd989d9e556098,
+        :cc2a2167cb531d687bb376d86ed2d0fc87183f15,
+        :da0b03179ba0e42f2fe98cdc73696b77c2c924cd,
+        :db9a865bc4060fbd2d97da4f9e578e6b61156bb7,
+        :dc63cf6d4b1c06b993d9cc671896770a04d64300,
+        :dd7aba0c69fe81e6036617c19976b624a17f9faf,
+        :e8f5d6f0c9e9980db9583e2934b82351b5d43702,
+        :e9a108c9ff05b57429c2e400ac0debaacf5f62d3,
+        :f9547ef9d3c22fe6dae73eb054f26f3a195e1289 ;
     qb:sliceStructure :the--datadict.csv ;
     :gender :gender-female ;
     :race_ethnicity :race-ethnicity-white .
@@ -5091,8 +5092,8 @@
         <339b6df90705a3143daec02cf3b94c658c233a50>,
         <37c7c566575939ff2ca878a1b0bc8134932f7541>,
         <76e6e029ccb065ebee4594e194ebf470066f1c8d>,
-        iri:b7d5e058c925087ee1575fb54c60a43bdc7538b7,
-        iri:f50d11484922cb3ba7ae05b04d997196300f9db0 ;
+        :b7d5e058c925087ee1575fb54c60a43bdc7538b7,
+        :f50d11484922cb3ba7ae05b04d997196300f9db0 ;
     qb:sliceStructure :the--datadict.csv ;
     :gender :gender-male ;
     :race_ethnicity :race-ethnicity-asian-pacific-islander .
@@ -5307,7 +5308,7 @@
     :uid "2016255"^^xsd:string ;
     :year 2016 .
 
-iri:a05e6cd7ada21e32a61d4dbd8df293a327ad04c1 a qb:Observation ;
+:a05e6cd7ada21e32a61d4dbd8df293a327ad04c1 a qb:Observation ;
     qb:dataSet <> ;
     :age 31 ;
     :armed "Firearm"^^xsd:string ;
@@ -5322,7 +5323,7 @@ iri:a05e6cd7ada21e32a61d4dbd8df293a327ad04c1 a qb:Observation ;
     :uid "201639"^^xsd:string ;
     :year 2016 .
 
-iri:a0cc1354009d72306cacb3fe948d702c9e4ea7c6 a qb:Observation ;
+:a0cc1354009d72306cacb3fe948d702c9e4ea7c6 a qb:Observation ;
     qb:dataSet <> ;
     :age 50 ;
     :armed "Firearm"^^xsd:string ;
@@ -5337,7 +5338,7 @@ iri:a0cc1354009d72306cacb3fe948d702c9e4ea7c6 a qb:Observation ;
     :uid "2016262"^^xsd:string ;
     :year 2016 .
 
-iri:a0dbd814acef27bb42991ac4945dfe84604d60f0 a qb:Observation ;
+:a0dbd814acef27bb42991ac4945dfe84604d60f0 a qb:Observation ;
     qb:dataSet <> ;
     :age 28 ;
     :armed "Firearm"^^xsd:string ;
@@ -5352,7 +5353,7 @@ iri:a0dbd814acef27bb42991ac4945dfe84604d60f0 a qb:Observation ;
     :uid "2016399"^^xsd:string ;
     :year 2016 .
 
-iri:a11724a8959d62fb942cc3397462faa57298a4fc a qb:Observation ;
+:a11724a8959d62fb942cc3397462faa57298a4fc a qb:Observation ;
     qb:dataSet <> ;
     :age 54 ;
     :armed "Firearm"^^xsd:string ;
@@ -5367,7 +5368,7 @@ iri:a11724a8959d62fb942cc3397462faa57298a4fc a qb:Observation ;
     :uid "2016488"^^xsd:string ;
     :year 2016 .
 
-iri:a1492571dd34f55571cb58162de1156b68cb3fed a qb:Observation ;
+:a1492571dd34f55571cb58162de1156b68cb3fed a qb:Observation ;
     qb:dataSet <> ;
     :age 28 ;
     :armed "Firearm"^^xsd:string ;
@@ -5382,7 +5383,7 @@ iri:a1492571dd34f55571cb58162de1156b68cb3fed a qb:Observation ;
     :uid "2016153"^^xsd:string ;
     :year 2016 .
 
-iri:a14b788bc36a25ace156637f007c41d4c0eea0af a qb:Observation ;
+:a14b788bc36a25ace156637f007c41d4c0eea0af a qb:Observation ;
     qb:dataSet <> ;
     :age 22 ;
     :armed "Firearm"^^xsd:string ;
@@ -5397,7 +5398,7 @@ iri:a14b788bc36a25ace156637f007c41d4c0eea0af a qb:Observation ;
     :uid "20164"^^xsd:string ;
     :year 2016 .
 
-iri:a1cd6668ba1410166a2f2c55b096a52be80fbf87 a qb:Observation ;
+:a1cd6668ba1410166a2f2c55b096a52be80fbf87 a qb:Observation ;
     qb:dataSet <> ;
     :age 38 ;
     :armed "No"^^xsd:string ;
@@ -5412,16 +5413,16 @@ iri:a1cd6668ba1410166a2f2c55b096a52be80fbf87 a qb:Observation ;
     :uid "2016396"^^xsd:string ;
     :year 2016 .
 
-iri:a216eb29b15824bc153dcd1f6d28deee272dd8b6 a qb:Slice ;
+:a216eb29b15824bc153dcd1f6d28deee272dd8b6 a qb:Slice ;
     qb:observation <45dd12920f3ad0702db15e55647957460f9d8b39>,
         <4ebc2c9b61bbdc2afcef091885a06541545c37f9>,
         <50143cadb61fd9158049ed45ff8f83aca7e9a597>,
-        iri:ff2f14a0184a1513e97ed6f5c2748bd63a95e2c0 ;
+        :ff2f14a0184a1513e97ed6f5c2748bd63a95e2c0 ;
     qb:sliceStructure :the--datadict.csv ;
     :gender :gender-female ;
     :race_ethnicity :race-ethnicity-native-american .
 
-iri:a2907388f92df1808c29fc417c559284f8e9cef2 a qb:Observation ;
+:a2907388f92df1808c29fc417c559284f8e9cef2 a qb:Observation ;
     qb:dataSet <> ;
     :age 35 ;
     :armed "Firearm"^^xsd:string ;
@@ -5436,7 +5437,7 @@ iri:a2907388f92df1808c29fc417c559284f8e9cef2 a qb:Observation ;
     :uid "2016382"^^xsd:string ;
     :year 2016 .
 
-iri:a373fbfa1606806c7745f0b61ffc50f478efcc87 a qb:Observation ;
+:a373fbfa1606806c7745f0b61ffc50f478efcc87 a qb:Observation ;
     qb:dataSet <> ;
     :age 37 ;
     :armed "Knife"^^xsd:string ;
@@ -5451,7 +5452,7 @@ iri:a373fbfa1606806c7745f0b61ffc50f478efcc87 a qb:Observation ;
     :uid "2016510"^^xsd:string ;
     :year 2016 .
 
-iri:a5b8c132c78f8564e61ee9e5c24a4dee312ae629 a qb:Observation ;
+:a5b8c132c78f8564e61ee9e5c24a4dee312ae629 a qb:Observation ;
     qb:dataSet <> ;
     :age 24 ;
     :armed "Firearm"^^xsd:string ;
@@ -5466,7 +5467,7 @@ iri:a5b8c132c78f8564e61ee9e5c24a4dee312ae629 a qb:Observation ;
     :uid "2016173"^^xsd:string ;
     :year 2016 .
 
-iri:a6509253d321ed351230e2345c6f319ac3a6728b a qb:Observation ;
+:a6509253d321ed351230e2345c6f319ac3a6728b a qb:Observation ;
     qb:dataSet <> ;
     :age 28 ;
     :armed "Firearm"^^xsd:string ;
@@ -5481,7 +5482,7 @@ iri:a6509253d321ed351230e2345c6f319ac3a6728b a qb:Observation ;
     :uid "2016312"^^xsd:string ;
     :year 2016 .
 
-iri:a8a5d4d5bf25136e08f98d3f2ff5357d8fead92f a qb:Observation ;
+:a8a5d4d5bf25136e08f98d3f2ff5357d8fead92f a qb:Observation ;
     qb:dataSet <> ;
     :age 49 ;
     :armed "Knife"^^xsd:string ;
@@ -5496,7 +5497,7 @@ iri:a8a5d4d5bf25136e08f98d3f2ff5357d8fead92f a qb:Observation ;
     :uid "201622"^^xsd:string ;
     :year 2016 .
 
-iri:a8b808cbfce0e19a319d9a5111d6d35cb9de15a3 a qb:Observation ;
+:a8b808cbfce0e19a319d9a5111d6d35cb9de15a3 a qb:Observation ;
     qb:dataSet <> ;
     :age 34 ;
     :armed "Firearm"^^xsd:string ;
@@ -5511,7 +5512,7 @@ iri:a8b808cbfce0e19a319d9a5111d6d35cb9de15a3 a qb:Observation ;
     :uid "2016215"^^xsd:string ;
     :year 2016 .
 
-iri:a938c378b7753fc438637071e4a9ccd2e3ae7112 a qb:Observation ;
+:a938c378b7753fc438637071e4a9ccd2e3ae7112 a qb:Observation ;
     qb:dataSet <> ;
     :age 63 ;
     :armed "Firearm"^^xsd:string ;
@@ -5526,7 +5527,7 @@ iri:a938c378b7753fc438637071e4a9ccd2e3ae7112 a qb:Observation ;
     :uid "2016395"^^xsd:string ;
     :year 2016 .
 
-iri:a945a313328c95ee69e2009aec7636a97853b53f a qb:Observation ;
+:a945a313328c95ee69e2009aec7636a97853b53f a qb:Observation ;
     qb:dataSet <> ;
     :age 34 ;
     :armed "Unknown"^^xsd:string ;
@@ -5541,7 +5542,7 @@ iri:a945a313328c95ee69e2009aec7636a97853b53f a qb:Observation ;
     :uid "2016374"^^xsd:string ;
     :year 2016 .
 
-iri:aa047c97b8aec9c30578450783a82f6d9562087f a qb:Observation ;
+:aa047c97b8aec9c30578450783a82f6d9562087f a qb:Observation ;
     qb:dataSet <> ;
     :age 24 ;
     :armed "Firearm"^^xsd:string ;
@@ -5556,7 +5557,7 @@ iri:aa047c97b8aec9c30578450783a82f6d9562087f a qb:Observation ;
     :uid "2016371"^^xsd:string ;
     :year 2016 .
 
-iri:aa74361c11a8e4527799f24ce64a1abf362f956f a qb:Observation ;
+:aa74361c11a8e4527799f24ce64a1abf362f956f a qb:Observation ;
     qb:dataSet <> ;
     :age 55 ;
     :armed "Vehicle"^^xsd:string ;
@@ -5571,7 +5572,7 @@ iri:aa74361c11a8e4527799f24ce64a1abf362f956f a qb:Observation ;
     :uid "2016340"^^xsd:string ;
     :year 2016 .
 
-iri:aaca4b6923aa9f645839eef17c7bfd43ef920642 a qb:Observation ;
+:aaca4b6923aa9f645839eef17c7bfd43ef920642 a qb:Observation ;
     qb:dataSet <> ;
     :age 18 ;
     :armed "Firearm"^^xsd:string ;
@@ -5586,7 +5587,7 @@ iri:aaca4b6923aa9f645839eef17c7bfd43ef920642 a qb:Observation ;
     :uid "2016313"^^xsd:string ;
     :year 2016 .
 
-iri:ab321d65a75f2b4262306528075b9bd937b3270c a qb:Observation ;
+:ab321d65a75f2b4262306528075b9bd937b3270c a qb:Observation ;
     qb:dataSet <> ;
     :age 29 ;
     :armed "Firearm"^^xsd:string ;
@@ -5601,7 +5602,7 @@ iri:ab321d65a75f2b4262306528075b9bd937b3270c a qb:Observation ;
     :uid "2016478"^^xsd:string ;
     :year 2016 .
 
-iri:ab428f85c92e273c8b6adf395ecd989d9e556098 a qb:Observation ;
+:ab428f85c92e273c8b6adf395ecd989d9e556098 a qb:Observation ;
     qb:dataSet <> ;
     :age 24 ;
     :armed "Firearm"^^xsd:string ;
@@ -5616,7 +5617,7 @@ iri:ab428f85c92e273c8b6adf395ecd989d9e556098 a qb:Observation ;
     :uid "2016328"^^xsd:string ;
     :year 2016 .
 
-iri:ac0a5b3b4b4e4ba4206147a64a430fc329760510 a qb:Observation ;
+:ac0a5b3b4b4e4ba4206147a64a430fc329760510 a qb:Observation ;
     qb:dataSet <> ;
     :age 34 ;
     :armed "Firearm"^^xsd:string ;
@@ -5631,7 +5632,7 @@ iri:ac0a5b3b4b4e4ba4206147a64a430fc329760510 a qb:Observation ;
     :uid "201613"^^xsd:string ;
     :year 2016 .
 
-iri:ac0c1a5d7a31a4a7d85edfaf3fa8340b94db0b7f a qb:Observation ;
+:ac0c1a5d7a31a4a7d85edfaf3fa8340b94db0b7f a qb:Observation ;
     qb:dataSet <> ;
     :age "Unknown"^^xsd:integer ;
     :armed "Unknown"^^xsd:string ;
@@ -5646,7 +5647,7 @@ iri:ac0c1a5d7a31a4a7d85edfaf3fa8340b94db0b7f a qb:Observation ;
     :uid "201687"^^xsd:string ;
     :year 2016 .
 
-iri:aca8ee3e7bc14e38508a6f77ea5acf9f5eec2a0c a qb:Observation ;
+:aca8ee3e7bc14e38508a6f77ea5acf9f5eec2a0c a qb:Observation ;
     qb:dataSet <> ;
     :age 52 ;
     :armed "Firearm"^^xsd:string ;
@@ -5661,7 +5662,7 @@ iri:aca8ee3e7bc14e38508a6f77ea5acf9f5eec2a0c a qb:Observation ;
     :uid "20168"^^xsd:string ;
     :year 2016 .
 
-iri:ace6b72756caab9c3636f7c40f47b33662b0e91f a qb:Observation ;
+:ace6b72756caab9c3636f7c40f47b33662b0e91f a qb:Observation ;
     qb:dataSet <> ;
     :age "Unknown"^^xsd:integer ;
     :armed "Firearm"^^xsd:string ;
@@ -5676,7 +5677,7 @@ iri:ace6b72756caab9c3636f7c40f47b33662b0e91f a qb:Observation ;
     :uid "2016517"^^xsd:string ;
     :year 2016 .
 
-iri:ad3dfa624af34433b9f3181b61f30ee0bc8a9af8 a qb:Observation ;
+:ad3dfa624af34433b9f3181b61f30ee0bc8a9af8 a qb:Observation ;
     qb:dataSet <> ;
     :age 64 ;
     :armed "No"^^xsd:string ;
@@ -5691,7 +5692,7 @@ iri:ad3dfa624af34433b9f3181b61f30ee0bc8a9af8 a qb:Observation ;
     :uid "2016443"^^xsd:string ;
     :year 2016 .
 
-iri:adbb831dc0f43f4a04fb3540d4d2c3db619a36a7 a qb:Observation ;
+:adbb831dc0f43f4a04fb3540d4d2c3db619a36a7 a qb:Observation ;
     qb:dataSet <> ;
     :age 29 ;
     :armed "Firearm"^^xsd:string ;
@@ -5706,13 +5707,13 @@ iri:adbb831dc0f43f4a04fb3540d4d2c3db619a36a7 a qb:Observation ;
     :uid "2016519"^^xsd:string ;
     :year 2016 .
 
-iri:adf004a45e1e84ba95d747d8b7acfb9e84bbcc20 a qb:Slice ;
+:adf004a45e1e84ba95d747d8b7acfb9e84bbcc20 a qb:Slice ;
     qb:observation <7029afd63407e92561ca151953d378dea2afcb3c> ;
     qb:sliceStructure :the--datadict.csv ;
     :gender :gender-female ;
     :race_ethnicity () .
 
-iri:ae1142eec81dd73e348ba0c887d2759d1e65ec93 a qb:Observation ;
+:ae1142eec81dd73e348ba0c887d2759d1e65ec93 a qb:Observation ;
     qb:dataSet <> ;
     :age 56 ;
     :armed "No"^^xsd:string ;
@@ -5727,7 +5728,7 @@ iri:ae1142eec81dd73e348ba0c887d2759d1e65ec93 a qb:Observation ;
     :uid "201620"^^xsd:string ;
     :year 2016 .
 
-iri:ae4e5192268475aef482998e6a3fbdc01117d1cc a qb:Observation ;
+:ae4e5192268475aef482998e6a3fbdc01117d1cc a qb:Observation ;
     qb:dataSet <> ;
     :age 29 ;
     :armed "Firearm"^^xsd:string ;
@@ -5742,7 +5743,7 @@ iri:ae4e5192268475aef482998e6a3fbdc01117d1cc a qb:Observation ;
     :uid "2016124"^^xsd:string ;
     :year 2016 .
 
-iri:aff07bcad55d4cd65025bfc6392fc0479f4877ff a qb:Observation ;
+:aff07bcad55d4cd65025bfc6392fc0479f4877ff a qb:Observation ;
     qb:dataSet <> ;
     :age 30 ;
     :armed "Firearm"^^xsd:string ;
@@ -5757,7 +5758,7 @@ iri:aff07bcad55d4cd65025bfc6392fc0479f4877ff a qb:Observation ;
     :uid "201664"^^xsd:string ;
     :year 2016 .
 
-iri:b0d0be013ae5c08dfb17f3fb45623fae08ab52e0 a qb:Observation ;
+:b0d0be013ae5c08dfb17f3fb45623fae08ab52e0 a qb:Observation ;
     qb:dataSet <> ;
     :age 38 ;
     :armed "Firearm"^^xsd:string ;
@@ -5772,7 +5773,7 @@ iri:b0d0be013ae5c08dfb17f3fb45623fae08ab52e0 a qb:Observation ;
     :uid "2016494"^^xsd:string ;
     :year 2016 .
 
-iri:b2989b82d8cd52007a5e1997f4726a270658963c a qb:Observation ;
+:b2989b82d8cd52007a5e1997f4726a270658963c a qb:Observation ;
     qb:dataSet <> ;
     :age 46 ;
     :armed "Knife"^^xsd:string ;
@@ -5787,7 +5788,7 @@ iri:b2989b82d8cd52007a5e1997f4726a270658963c a qb:Observation ;
     :uid "2016211"^^xsd:string ;
     :year 2016 .
 
-iri:b2cf52f01a659ab9868ea373c50eb7defdd95273 a qb:Observation ;
+:b2cf52f01a659ab9868ea373c50eb7defdd95273 a qb:Observation ;
     qb:dataSet <> ;
     :age 51 ;
     :armed "Firearm"^^xsd:string ;
@@ -5802,7 +5803,7 @@ iri:b2cf52f01a659ab9868ea373c50eb7defdd95273 a qb:Observation ;
     :uid "2016202"^^xsd:string ;
     :year 2016 .
 
-iri:b2ff0dc53c96632bf75e01c6bcc6f07641bb6c2e a qb:Observation ;
+:b2ff0dc53c96632bf75e01c6bcc6f07641bb6c2e a qb:Observation ;
     qb:dataSet <> ;
     :age 37 ;
     :armed "Other"^^xsd:string ;
@@ -5817,7 +5818,7 @@ iri:b2ff0dc53c96632bf75e01c6bcc6f07641bb6c2e a qb:Observation ;
     :uid "201614"^^xsd:string ;
     :year 2016 .
 
-iri:b30019070a5442d1b96310ac35f2b81f0d6c4c6e a qb:Observation ;
+:b30019070a5442d1b96310ac35f2b81f0d6c4c6e a qb:Observation ;
     qb:dataSet <> ;
     :age "Unknown"^^xsd:integer ;
     :armed "Firearm"^^xsd:string ;
@@ -5832,7 +5833,7 @@ iri:b30019070a5442d1b96310ac35f2b81f0d6c4c6e a qb:Observation ;
     :uid "2016428"^^xsd:string ;
     :year 2016 .
 
-iri:b37f9ec50560b6380ffb722ad585af5d0d1f8292 a qb:Observation ;
+:b37f9ec50560b6380ffb722ad585af5d0d1f8292 a qb:Observation ;
     qb:dataSet <> ;
     :age 30 ;
     :armed "Knife"^^xsd:string ;
@@ -5847,7 +5848,7 @@ iri:b37f9ec50560b6380ffb722ad585af5d0d1f8292 a qb:Observation ;
     :uid "2016290"^^xsd:string ;
     :year 2016 .
 
-iri:b3c78c8bb0f7cb288d8d5045d3d49972b9db2752 a qb:Observation ;
+:b3c78c8bb0f7cb288d8d5045d3d49972b9db2752 a qb:Observation ;
     qb:dataSet <> ;
     :age 30 ;
     :armed "Knife"^^xsd:string ;
@@ -5862,7 +5863,7 @@ iri:b3c78c8bb0f7cb288d8d5045d3d49972b9db2752 a qb:Observation ;
     :uid "201683"^^xsd:string ;
     :year 2016 .
 
-iri:b3f868577e6ce76bf962d639e792598bad2f6890 a qb:Observation ;
+:b3f868577e6ce76bf962d639e792598bad2f6890 a qb:Observation ;
     qb:dataSet <> ;
     :age 52 ;
     :armed "Firearm"^^xsd:string ;
@@ -5877,7 +5878,7 @@ iri:b3f868577e6ce76bf962d639e792598bad2f6890 a qb:Observation ;
     :uid "2016297"^^xsd:string ;
     :year 2016 .
 
-iri:b43defc13a93e6f4634f26b9e0a53235376bc382 a qb:Observation ;
+:b43defc13a93e6f4634f26b9e0a53235376bc382 a qb:Observation ;
     qb:dataSet <> ;
     :age 31 ;
     :armed "Firearm"^^xsd:string ;
@@ -5892,7 +5893,7 @@ iri:b43defc13a93e6f4634f26b9e0a53235376bc382 a qb:Observation ;
     :uid "2016146"^^xsd:string ;
     :year 2016 .
 
-iri:b4aed9ce663a020888f8e8abdc3298ab7332007c a qb:Observation ;
+:b4aed9ce663a020888f8e8abdc3298ab7332007c a qb:Observation ;
     qb:dataSet <> ;
     :age 19 ;
     :armed "Firearm"^^xsd:string ;
@@ -5907,7 +5908,7 @@ iri:b4aed9ce663a020888f8e8abdc3298ab7332007c a qb:Observation ;
     :uid "2016411"^^xsd:string ;
     :year 2016 .
 
-iri:b588905c096e8b879e9568d978fddfd948839037 a qb:Observation ;
+:b588905c096e8b879e9568d978fddfd948839037 a qb:Observation ;
     qb:dataSet <> ;
     :age 43 ;
     :armed "Disputed"^^xsd:string ;
@@ -5922,7 +5923,7 @@ iri:b588905c096e8b879e9568d978fddfd948839037 a qb:Observation ;
     :uid "2016446"^^xsd:string ;
     :year 2016 .
 
-iri:b6530e8f9a6b47a2774e89a0e91f02157c63e238 a qb:Observation ;
+:b6530e8f9a6b47a2774e89a0e91f02157c63e238 a qb:Observation ;
     qb:dataSet <> ;
     :age 44 ;
     :armed "Firearm"^^xsd:string ;
@@ -5937,7 +5938,7 @@ iri:b6530e8f9a6b47a2774e89a0e91f02157c63e238 a qb:Observation ;
     :uid "2016514"^^xsd:string ;
     :year 2016 .
 
-iri:b65bf7a49315ab502b595b51ac05a6283be3121a a qb:Observation ;
+:b65bf7a49315ab502b595b51ac05a6283be3121a a qb:Observation ;
     qb:dataSet <> ;
     :age 29 ;
     :armed "Unknown"^^xsd:string ;
@@ -5952,7 +5953,7 @@ iri:b65bf7a49315ab502b595b51ac05a6283be3121a a qb:Observation ;
     :uid "2016225"^^xsd:string ;
     :year 2016 .
 
-iri:b6fe441f39310a4632816dc4823fb0c6c1727c4a a qb:Observation ;
+:b6fe441f39310a4632816dc4823fb0c6c1727c4a a qb:Observation ;
     qb:dataSet <> ;
     :age 18 ;
     :armed "Firearm"^^xsd:string ;
@@ -5967,7 +5968,7 @@ iri:b6fe441f39310a4632816dc4823fb0c6c1727c4a a qb:Observation ;
     :uid "2016256"^^xsd:string ;
     :year 2016 .
 
-iri:b7d5e058c925087ee1575fb54c60a43bdc7538b7 a qb:Observation ;
+:b7d5e058c925087ee1575fb54c60a43bdc7538b7 a qb:Observation ;
     qb:dataSet <> ;
     :age 29 ;
     :armed "Firearm"^^xsd:string ;
@@ -5982,7 +5983,7 @@ iri:b7d5e058c925087ee1575fb54c60a43bdc7538b7 a qb:Observation ;
     :uid "2016107"^^xsd:string ;
     :year 2016 .
 
-iri:b8ca76fb656bbf155afd578b1d3f8c8e8ab2f27e a qb:Observation ;
+:b8ca76fb656bbf155afd578b1d3f8c8e8ab2f27e a qb:Observation ;
     qb:dataSet <> ;
     :age 19 ;
     :armed "Firearm"^^xsd:string ;
@@ -5997,7 +5998,7 @@ iri:b8ca76fb656bbf155afd578b1d3f8c8e8ab2f27e a qb:Observation ;
     :uid "2016179"^^xsd:string ;
     :year 2016 .
 
-iri:b923587d4bcb1e375550a8a927b058f18ec1a83b a qb:Observation ;
+:b923587d4bcb1e375550a8a927b058f18ec1a83b a qb:Observation ;
     qb:dataSet <> ;
     :age 55 ;
     :armed "Firearm"^^xsd:string ;
@@ -6012,7 +6013,7 @@ iri:b923587d4bcb1e375550a8a927b058f18ec1a83b a qb:Observation ;
     :uid "2016236"^^xsd:string ;
     :year 2016 .
 
-iri:b99c54f57793590aeeb2c9adaf9710e99af97584 a qb:Observation ;
+:b99c54f57793590aeeb2c9adaf9710e99af97584 a qb:Observation ;
     qb:dataSet <> ;
     :age 33 ;
     :armed "No"^^xsd:string ;
@@ -6027,7 +6028,7 @@ iri:b99c54f57793590aeeb2c9adaf9710e99af97584 a qb:Observation ;
     :uid "2016240"^^xsd:string ;
     :year 2016 .
 
-iri:ba1298ae1a8dcedce97216cf650950681ddccd4e a qb:Observation ;
+:ba1298ae1a8dcedce97216cf650950681ddccd4e a qb:Observation ;
     qb:dataSet <> ;
     :age 30 ;
     :armed "Vehicle"^^xsd:string ;
@@ -6042,7 +6043,7 @@ iri:ba1298ae1a8dcedce97216cf650950681ddccd4e a qb:Observation ;
     :uid "2016496"^^xsd:string ;
     :year 2016 .
 
-iri:bae60e4cf3e75522b2a819d6552c3bc260e512e9 a qb:Observation ;
+:bae60e4cf3e75522b2a819d6552c3bc260e512e9 a qb:Observation ;
     qb:dataSet <> ;
     :age 26 ;
     :armed "No"^^xsd:string ;
@@ -6057,7 +6058,7 @@ iri:bae60e4cf3e75522b2a819d6552c3bc260e512e9 a qb:Observation ;
     :uid "201659"^^xsd:string ;
     :year 2016 .
 
-iri:bbad3d4a6128ccf1b103cc0061d834c34e467b11 a qb:Observation ;
+:bbad3d4a6128ccf1b103cc0061d834c34e467b11 a qb:Observation ;
     qb:dataSet <> ;
     :age 43 ;
     :armed "Firearm"^^xsd:string ;
@@ -6072,7 +6073,7 @@ iri:bbad3d4a6128ccf1b103cc0061d834c34e467b11 a qb:Observation ;
     :uid "2016265"^^xsd:string ;
     :year 2016 .
 
-iri:bc1cc9c98b05127f45c8454e63ad02740eb6abc6 a qb:Observation ;
+:bc1cc9c98b05127f45c8454e63ad02740eb6abc6 a qb:Observation ;
     qb:dataSet <> ;
     :age 39 ;
     :armed "Knife"^^xsd:string ;
@@ -6087,7 +6088,7 @@ iri:bc1cc9c98b05127f45c8454e63ad02740eb6abc6 a qb:Observation ;
     :uid "2016254"^^xsd:string ;
     :year 2016 .
 
-iri:bc1f6d59ea54b6ea988dc12383f3e5d245c80726 a qb:Observation ;
+:bc1f6d59ea54b6ea988dc12383f3e5d245c80726 a qb:Observation ;
     qb:dataSet <> ;
     :age 18 ;
     :armed "Firearm"^^xsd:string ;
@@ -6102,7 +6103,7 @@ iri:bc1f6d59ea54b6ea988dc12383f3e5d245c80726 a qb:Observation ;
     :uid "2016266"^^xsd:string ;
     :year 2016 .
 
-iri:bc4e72f05fff878fac5ca865060899c7190057f1 a qb:Observation ;
+:bc4e72f05fff878fac5ca865060899c7190057f1 a qb:Observation ;
     qb:dataSet <> ;
     :age 27 ;
     :armed "Non-lethal firearm"^^xsd:string ;
@@ -6117,7 +6118,7 @@ iri:bc4e72f05fff878fac5ca865060899c7190057f1 a qb:Observation ;
     :uid "2016192"^^xsd:string ;
     :year 2016 .
 
-iri:bdb6a044ef2e0dfd601e3d3f9e23026bfe02241a a qb:Observation ;
+:bdb6a044ef2e0dfd601e3d3f9e23026bfe02241a a qb:Observation ;
     qb:dataSet <> ;
     :age 23 ;
     :armed "Firearm"^^xsd:string ;
@@ -6132,7 +6133,7 @@ iri:bdb6a044ef2e0dfd601e3d3f9e23026bfe02241a a qb:Observation ;
     :uid "2016203"^^xsd:string ;
     :year 2016 .
 
-iri:be12f9e6adfc2da414cac8b72e0ea45562fe6f58 a qb:Observation ;
+:be12f9e6adfc2da414cac8b72e0ea45562fe6f58 a qb:Observation ;
     qb:dataSet <> ;
     :age 52 ;
     :armed "Firearm"^^xsd:string ;
@@ -6147,7 +6148,7 @@ iri:be12f9e6adfc2da414cac8b72e0ea45562fe6f58 a qb:Observation ;
     :uid "2016304"^^xsd:string ;
     :year 2016 .
 
-iri:be2b2485cdec912ce730f0dd6c41ea2deab37c8d a qb:Observation ;
+:be2b2485cdec912ce730f0dd6c41ea2deab37c8d a qb:Observation ;
     qb:dataSet <> ;
     :age 22 ;
     :armed "Vehicle"^^xsd:string ;
@@ -6162,7 +6163,7 @@ iri:be2b2485cdec912ce730f0dd6c41ea2deab37c8d a qb:Observation ;
     :uid "2016105"^^xsd:string ;
     :year 2016 .
 
-iri:be514be0f3799f0bcb490905e7d9fd88b5e247bf a qb:Observation ;
+:be514be0f3799f0bcb490905e7d9fd88b5e247bf a qb:Observation ;
     qb:dataSet <> ;
     :age 41 ;
     :armed "Firearm"^^xsd:string ;
@@ -6177,7 +6178,7 @@ iri:be514be0f3799f0bcb490905e7d9fd88b5e247bf a qb:Observation ;
     :uid "201624"^^xsd:string ;
     :year 2016 .
 
-iri:bea3a81bdb2489faa8add8974da75fadfeff6678 a qb:Observation ;
+:bea3a81bdb2489faa8add8974da75fadfeff6678 a qb:Observation ;
     qb:dataSet <> ;
     :age 39 ;
     :armed "Firearm"^^xsd:string ;
@@ -6192,7 +6193,7 @@ iri:bea3a81bdb2489faa8add8974da75fadfeff6678 a qb:Observation ;
     :uid "201642"^^xsd:string ;
     :year 2016 .
 
-iri:beefdf9a6a0742128fe5ac183db1733f849b7cc7 a qb:Observation ;
+:beefdf9a6a0742128fe5ac183db1733f849b7cc7 a qb:Observation ;
     qb:dataSet <> ;
     :age 66 ;
     :armed "Unknown"^^xsd:string ;
@@ -6207,7 +6208,7 @@ iri:beefdf9a6a0742128fe5ac183db1733f849b7cc7 a qb:Observation ;
     :uid "2016183"^^xsd:string ;
     :year 2016 .
 
-iri:bf347a880621ccc951423ee4af04e3c7991c8a73 a qb:Observation ;
+:bf347a880621ccc951423ee4af04e3c7991c8a73 a qb:Observation ;
     qb:dataSet <> ;
     :age 44 ;
     :armed "Firearm"^^xsd:string ;
@@ -6222,7 +6223,7 @@ iri:bf347a880621ccc951423ee4af04e3c7991c8a73 a qb:Observation ;
     :uid "2016385"^^xsd:string ;
     :year 2016 .
 
-iri:bf7742e70e0462e04792df39ab62249720896d4f a qb:Observation ;
+:bf7742e70e0462e04792df39ab62249720896d4f a qb:Observation ;
     qb:dataSet <> ;
     :age 23 ;
     :armed "Unknown"^^xsd:string ;
@@ -6237,7 +6238,7 @@ iri:bf7742e70e0462e04792df39ab62249720896d4f a qb:Observation ;
     :uid "2016200"^^xsd:string ;
     :year 2016 .
 
-iri:bfb987377d2c21f3b1a6fbfbdf01aa2f230fba7d a qb:Observation ;
+:bfb987377d2c21f3b1a6fbfbdf01aa2f230fba7d a qb:Observation ;
     qb:dataSet <> ;
     :age 21 ;
     :armed "Firearm"^^xsd:string ;
@@ -6252,7 +6253,7 @@ iri:bfb987377d2c21f3b1a6fbfbdf01aa2f230fba7d a qb:Observation ;
     :uid "2016199"^^xsd:string ;
     :year 2016 .
 
-iri:c024b1024d9b3b3eb0aaa9583b277ad93ec37710 a qb:Observation ;
+:c024b1024d9b3b3eb0aaa9583b277ad93ec37710 a qb:Observation ;
     qb:dataSet <> ;
     :age 58 ;
     :armed "Firearm"^^xsd:string ;
@@ -6263,11 +6264,11 @@ iri:c024b1024d9b3b3eb0aaa9583b277ad93ec37710 a qb:Observation ;
     :month "February"^^xsd:string ;
     :name "Martin Wirth"^^xsd:string ;
     :state "CO"^^xsd:string ;
-    :street_address "36 Iris Dr"^^xsd:string ;
+    :street_address "36 s Dr"^^xsd:string ;
     :uid "2016161"^^xsd:string ;
     :year 2016 .
 
-iri:c07f8ff69b141fca14a0c932a28e7c2902fdccad a qb:Observation ;
+:c07f8ff69b141fca14a0c932a28e7c2902fdccad a qb:Observation ;
     qb:dataSet <> ;
     :age 50 ;
     :armed "Firearm"^^xsd:string ;
@@ -6282,7 +6283,7 @@ iri:c07f8ff69b141fca14a0c932a28e7c2902fdccad a qb:Observation ;
     :uid "2016474"^^xsd:string ;
     :year 2016 .
 
-iri:c14370ba883082acbc7ebfd41efb1ef94416218c a qb:Observation ;
+:c14370ba883082acbc7ebfd41efb1ef94416218c a qb:Observation ;
     qb:dataSet <> ;
     :age 30 ;
     :armed "Unknown"^^xsd:string ;
@@ -6297,7 +6298,7 @@ iri:c14370ba883082acbc7ebfd41efb1ef94416218c a qb:Observation ;
     :uid "2016226"^^xsd:string ;
     :year 2016 .
 
-iri:c197e4a84629766a442284d75068439f168cdd03 a qb:Observation ;
+:c197e4a84629766a442284d75068439f168cdd03 a qb:Observation ;
     qb:dataSet <> ;
     :age 45 ;
     :armed "Firearm"^^xsd:string ;
@@ -6312,7 +6313,7 @@ iri:c197e4a84629766a442284d75068439f168cdd03 a qb:Observation ;
     :uid "2016412"^^xsd:string ;
     :year 2016 .
 
-iri:c1c8b656d6036dba10c0b2b624eb43ce8c09878a a qb:Observation ;
+:c1c8b656d6036dba10c0b2b624eb43ce8c09878a a qb:Observation ;
     qb:dataSet <> ;
     :age 45 ;
     :armed "Unknown"^^xsd:string ;
@@ -6327,7 +6328,7 @@ iri:c1c8b656d6036dba10c0b2b624eb43ce8c09878a a qb:Observation ;
     :uid "2016188"^^xsd:string ;
     :year 2016 .
 
-iri:c2051e7cfc19e988805ee510bb60f17ee11eae0a a qb:Observation ;
+:c2051e7cfc19e988805ee510bb60f17ee11eae0a a qb:Observation ;
     qb:dataSet <> ;
     :age 39 ;
     :armed "Other"^^xsd:string ;
@@ -6342,7 +6343,7 @@ iri:c2051e7cfc19e988805ee510bb60f17ee11eae0a a qb:Observation ;
     :uid "2016155"^^xsd:string ;
     :year 2016 .
 
-iri:c35c5f8228ae562477d2561e90e162af6dff986f a qb:Observation ;
+:c35c5f8228ae562477d2561e90e162af6dff986f a qb:Observation ;
     qb:dataSet <> ;
     :age 36 ;
     :armed "Firearm"^^xsd:string ;
@@ -6357,7 +6358,7 @@ iri:c35c5f8228ae562477d2561e90e162af6dff986f a qb:Observation ;
     :uid "2016113"^^xsd:string ;
     :year 2016 .
 
-iri:c53dfe26cffcc88f95ef867b8f7f51a47b290765 a qb:Observation ;
+:c53dfe26cffcc88f95ef867b8f7f51a47b290765 a qb:Observation ;
     qb:dataSet <> ;
     :age 31 ;
     :armed "Firearm"^^xsd:string ;
@@ -6372,7 +6373,7 @@ iri:c53dfe26cffcc88f95ef867b8f7f51a47b290765 a qb:Observation ;
     :uid "2016307"^^xsd:string ;
     :year 2016 .
 
-iri:c56937898b69cca8414df840d0e027c593ff918e a qb:Observation ;
+:c56937898b69cca8414df840d0e027c593ff918e a qb:Observation ;
     qb:dataSet <> ;
     :age 50 ;
     :armed "No"^^xsd:string ;
@@ -6387,7 +6388,7 @@ iri:c56937898b69cca8414df840d0e027c593ff918e a qb:Observation ;
     :uid "2016431"^^xsd:string ;
     :year 2016 .
 
-iri:c56de1e8d3a9d5b3ff01bca50534768fad36ddec a qb:Observation ;
+:c56de1e8d3a9d5b3ff01bca50534768fad36ddec a qb:Observation ;
     qb:dataSet <> ;
     :age 50 ;
     :armed "Knife"^^xsd:string ;
@@ -6402,7 +6403,7 @@ iri:c56de1e8d3a9d5b3ff01bca50534768fad36ddec a qb:Observation ;
     :uid "2016127"^^xsd:string ;
     :year 2016 .
 
-iri:c5d326a068fb2a1717ba21a1e26937054a4e7640 a qb:Observation ;
+:c5d326a068fb2a1717ba21a1e26937054a4e7640 a qb:Observation ;
     qb:dataSet <> ;
     :age 26 ;
     :armed "Unknown"^^xsd:string ;
@@ -6417,7 +6418,7 @@ iri:c5d326a068fb2a1717ba21a1e26937054a4e7640 a qb:Observation ;
     :uid "2016301"^^xsd:string ;
     :year 2016 .
 
-iri:c5fded484c481e99953b6f0634dacd353e2a2cdc a qb:Observation ;
+:c5fded484c481e99953b6f0634dacd353e2a2cdc a qb:Observation ;
     qb:dataSet <> ;
     :age 24 ;
     :armed "No"^^xsd:string ;
@@ -6432,7 +6433,7 @@ iri:c5fded484c481e99953b6f0634dacd353e2a2cdc a qb:Observation ;
     :uid "2016458"^^xsd:string ;
     :year 2016 .
 
-iri:c6db3aa73238da227e6cfe637b35f62d1634419f a qb:Slice ;
+:c6db3aa73238da227e6cfe637b35f62d1634419f a qb:Slice ;
     qb:observation <04e74de184f5fa3ec78720242bccb6c98fb836e6>,
         <07ffb805385a3673e8ddc0a1d02ce5297b804217>,
         <08a3b23a407899baa87df4b291c6f52325273fb4>,
@@ -6504,55 +6505,55 @@ iri:c6db3aa73238da227e6cfe637b35f62d1634419f a qb:Slice ;
         <9cb8e54443b9bf796ffb53da0631942f6dec15b3>,
         <9ce6b5d9d76d508591214b0f5a2a54355af81650>,
         <9eb7bee445acd099819be565cff14051b4a366a1>,
-        iri:a11724a8959d62fb942cc3397462faa57298a4fc,
-        iri:a14b788bc36a25ace156637f007c41d4c0eea0af,
-        iri:a5b8c132c78f8564e61ee9e5c24a4dee312ae629,
-        iri:a6509253d321ed351230e2345c6f319ac3a6728b,
-        iri:aaca4b6923aa9f645839eef17c7bfd43ef920642,
-        iri:ad3dfa624af34433b9f3181b61f30ee0bc8a9af8,
-        iri:ae4e5192268475aef482998e6a3fbdc01117d1cc,
-        iri:b588905c096e8b879e9568d978fddfd948839037,
-        iri:b6530e8f9a6b47a2774e89a0e91f02157c63e238,
-        iri:b65bf7a49315ab502b595b51ac05a6283be3121a,
-        iri:b6fe441f39310a4632816dc4823fb0c6c1727c4a,
-        iri:b8ca76fb656bbf155afd578b1d3f8c8e8ab2f27e,
-        iri:bbad3d4a6128ccf1b103cc0061d834c34e467b11,
-        iri:bc1f6d59ea54b6ea988dc12383f3e5d245c80726,
-        iri:be2b2485cdec912ce730f0dd6c41ea2deab37c8d,
-        iri:c14370ba883082acbc7ebfd41efb1ef94416218c,
-        iri:c53dfe26cffcc88f95ef867b8f7f51a47b290765,
-        iri:c90a729c978f459a2e6710b531eefc9f6c417bfd,
-        iri:c99f6fc76e8c9f6a7a5b76aefca27b2a09037422,
-        iri:cb459689254a2a61cd894d6f416a47705eb4a635,
-        iri:cf0163dc38a71cf248f2dbac6df4ca60cf7f0aee,
-        iri:d25e564551808e588da24628a943dee2b8e39847,
-        iri:d69ac02f4a6035389346118382c0066e9c4ff846,
-        iri:d7898ea814971326f0a83788706f9602e027b53a,
-        iri:da83c6a78978eeae91256694628a97e83ba85c58,
-        iri:db3c77f3dea31e2c54d117b87e581bf0c4120b39,
-        iri:dd826867c9fe08de238dafb655ad9c7d2bd72fd6,
-        iri:e171dbb7e0cd039698cbc779699784c8f602c397,
-        iri:e25634f2a82bc6cb29a13bcdda7da58691cb663e,
-        iri:e2a41122478436d64689b4f6a1493287303c529c,
-        iri:e321b6736fe91c45f11d540c05a6365b88b7c104,
-        iri:e3d99c806d92b4028215f7ab5990383859ccb7fe,
-        iri:e47108863c0be8e1c6868aa680bc9cc35095ad22,
-        iri:e52bb418e2a63c5daaf3ca074a2a7c29b21b3354,
-        iri:e625b96020192203723a7e5d0c9be962bec00c4c,
-        iri:e9410d72671a8aa167b63a8b4d44ebd73a87ecb2,
-        iri:e9a2f9e19e0d3c4b2cfe428b9afcc5c5da7856a8,
-        iri:e9ddd04db2493fcbe6a4f3f5d25a7e4ffe2526c7,
-        iri:f4920e95db47c6c23b204f524b212a7cc010cffa,
-        iri:f66b0bee4265521e9509d87b42220f9280e0a0d4,
-        iri:f66dd6f083225a9a78d2124055e26856d498c897,
-        iri:fa837f3dc437c7e291d532eacab49e04bc66d7bd,
-        iri:fbf86896564a87652a4f2afafb526d94a456c13a,
-        iri:fc185a3f8768d6c34e31d826941eb0106be482d6 ;
+        :a11724a8959d62fb942cc3397462faa57298a4fc,
+        :a14b788bc36a25ace156637f007c41d4c0eea0af,
+        :a5b8c132c78f8564e61ee9e5c24a4dee312ae629,
+        :a6509253d321ed351230e2345c6f319ac3a6728b,
+        :aaca4b6923aa9f645839eef17c7bfd43ef920642,
+        :ad3dfa624af34433b9f3181b61f30ee0bc8a9af8,
+        :ae4e5192268475aef482998e6a3fbdc01117d1cc,
+        :b588905c096e8b879e9568d978fddfd948839037,
+        :b6530e8f9a6b47a2774e89a0e91f02157c63e238,
+        :b65bf7a49315ab502b595b51ac05a6283be3121a,
+        :b6fe441f39310a4632816dc4823fb0c6c1727c4a,
+        :b8ca76fb656bbf155afd578b1d3f8c8e8ab2f27e,
+        :bbad3d4a6128ccf1b103cc0061d834c34e467b11,
+        :bc1f6d59ea54b6ea988dc12383f3e5d245c80726,
+        :be2b2485cdec912ce730f0dd6c41ea2deab37c8d,
+        :c14370ba883082acbc7ebfd41efb1ef94416218c,
+        :c53dfe26cffcc88f95ef867b8f7f51a47b290765,
+        :c90a729c978f459a2e6710b531eefc9f6c417bfd,
+        :c99f6fc76e8c9f6a7a5b76aefca27b2a09037422,
+        :cb459689254a2a61cd894d6f416a47705eb4a635,
+        :cf0163dc38a71cf248f2dbac6df4ca60cf7f0aee,
+        :d25e564551808e588da24628a943dee2b8e39847,
+        :d69ac02f4a6035389346118382c0066e9c4ff846,
+        :d7898ea814971326f0a83788706f9602e027b53a,
+        :da83c6a78978eeae91256694628a97e83ba85c58,
+        :db3c77f3dea31e2c54d117b87e581bf0c4120b39,
+        :dd826867c9fe08de238dafb655ad9c7d2bd72fd6,
+        :e171dbb7e0cd039698cbc779699784c8f602c397,
+        :e25634f2a82bc6cb29a13bcdda7da58691cb663e,
+        :e2a41122478436d64689b4f6a1493287303c529c,
+        :e321b6736fe91c45f11d540c05a6365b88b7c104,
+        :e3d99c806d92b4028215f7ab5990383859ccb7fe,
+        :e47108863c0be8e1c6868aa680bc9cc35095ad22,
+        :e52bb418e2a63c5daaf3ca074a2a7c29b21b3354,
+        :e625b96020192203723a7e5d0c9be962bec00c4c,
+        :e9410d72671a8aa167b63a8b4d44ebd73a87ecb2,
+        :e9a2f9e19e0d3c4b2cfe428b9afcc5c5da7856a8,
+        :e9ddd04db2493fcbe6a4f3f5d25a7e4ffe2526c7,
+        :f4920e95db47c6c23b204f524b212a7cc010cffa,
+        :f66b0bee4265521e9509d87b42220f9280e0a0d4,
+        :f66dd6f083225a9a78d2124055e26856d498c897,
+        :fa837f3dc437c7e291d532eacab49e04bc66d7bd,
+        :fbf86896564a87652a4f2afafb526d94a456c13a,
+        :fc185a3f8768d6c34e31d826941eb0106be482d6 ;
     qb:sliceStructure :the--datadict.csv ;
     :gender :gender-male ;
     :race_ethnicity :race-ethnicity-black .
 
-iri:c7586160282f376f9308fe849dfa7d24f1482bbe a qb:Observation ;
+:c7586160282f376f9308fe849dfa7d24f1482bbe a qb:Observation ;
     qb:dataSet <> ;
     :age 33 ;
     :armed "Firearm"^^xsd:string ;
@@ -6567,7 +6568,7 @@ iri:c7586160282f376f9308fe849dfa7d24f1482bbe a qb:Observation ;
     :uid "201637"^^xsd:string ;
     :year 2016 .
 
-iri:c7da96ac15f957ec6a7d8d1dcc188a0edbbf4d84 a qb:Observation ;
+:c7da96ac15f957ec6a7d8d1dcc188a0edbbf4d84 a qb:Observation ;
     qb:dataSet <> ;
     :age 28 ;
     :armed "Firearm"^^xsd:string ;
@@ -6582,7 +6583,7 @@ iri:c7da96ac15f957ec6a7d8d1dcc188a0edbbf4d84 a qb:Observation ;
     :uid "201647"^^xsd:string ;
     :year 2016 .
 
-iri:c8bfa06d77d10d3ed1ff42e470a6604f99a0a9a2 a qb:Observation ;
+:c8bfa06d77d10d3ed1ff42e470a6604f99a0a9a2 a qb:Observation ;
     qb:dataSet <> ;
     :age 24 ;
     :armed "Firearm"^^xsd:string ;
@@ -6597,7 +6598,7 @@ iri:c8bfa06d77d10d3ed1ff42e470a6604f99a0a9a2 a qb:Observation ;
     :uid "2016322"^^xsd:string ;
     :year 2016 .
 
-iri:c90a729c978f459a2e6710b531eefc9f6c417bfd a qb:Observation ;
+:c90a729c978f459a2e6710b531eefc9f6c417bfd a qb:Observation ;
     qb:dataSet <> ;
     :age 22 ;
     :armed "No"^^xsd:string ;
@@ -6612,7 +6613,7 @@ iri:c90a729c978f459a2e6710b531eefc9f6c417bfd a qb:Observation ;
     :uid "2016401"^^xsd:string ;
     :year 2016 .
 
-iri:c99f6fc76e8c9f6a7a5b76aefca27b2a09037422 a qb:Observation ;
+:c99f6fc76e8c9f6a7a5b76aefca27b2a09037422 a qb:Observation ;
     qb:dataSet <> ;
     :age 40 ;
     :armed "Knife"^^xsd:string ;
@@ -6627,7 +6628,7 @@ iri:c99f6fc76e8c9f6a7a5b76aefca27b2a09037422 a qb:Observation ;
     :uid "2016283"^^xsd:string ;
     :year 2016 .
 
-iri:ca836328f64c4a649163e5c4b0c6302bd687d727 a qb:Observation ;
+:ca836328f64c4a649163e5c4b0c6302bd687d727 a qb:Observation ;
     qb:dataSet <> ;
     :age 45 ;
     :armed "Firearm"^^xsd:string ;
@@ -6642,7 +6643,7 @@ iri:ca836328f64c4a649163e5c4b0c6302bd687d727 a qb:Observation ;
     :uid "2016143"^^xsd:string ;
     :year 2016 .
 
-iri:cae7cb3f9e352e6a388721389cee9a15536772b7 a qb:Observation ;
+:cae7cb3f9e352e6a388721389cee9a15536772b7 a qb:Observation ;
     qb:dataSet <> ;
     :age 10 ;
     :armed "No"^^xsd:string ;
@@ -6657,7 +6658,7 @@ iri:cae7cb3f9e352e6a388721389cee9a15536772b7 a qb:Observation ;
     :uid "2016133"^^xsd:string ;
     :year 2016 .
 
-iri:cb459689254a2a61cd894d6f416a47705eb4a635 a qb:Observation ;
+:cb459689254a2a61cd894d6f416a47705eb4a635 a qb:Observation ;
     qb:dataSet <> ;
     :age 52 ;
     :armed "Firearm"^^xsd:string ;
@@ -6672,7 +6673,7 @@ iri:cb459689254a2a61cd894d6f416a47705eb4a635 a qb:Observation ;
     :uid "201635"^^xsd:string ;
     :year 2016 .
 
-iri:cb6c871db5152d9baff9363bc37a7685c687f88b a qb:Observation ;
+:cb6c871db5152d9baff9363bc37a7685c687f88b a qb:Observation ;
     qb:dataSet <> ;
     :age 34 ;
     :armed "Unknown"^^xsd:string ;
@@ -6687,7 +6688,7 @@ iri:cb6c871db5152d9baff9363bc37a7685c687f88b a qb:Observation ;
     :uid "2016471"^^xsd:string ;
     :year 2016 .
 
-iri:cc2a2167cb531d687bb376d86ed2d0fc87183f15 a qb:Observation ;
+:cc2a2167cb531d687bb376d86ed2d0fc87183f15 a qb:Observation ;
     qb:dataSet <> ;
     :age 25 ;
     :armed "No"^^xsd:string ;
@@ -6702,7 +6703,7 @@ iri:cc2a2167cb531d687bb376d86ed2d0fc87183f15 a qb:Observation ;
     :uid "201627"^^xsd:string ;
     :year 2016 .
 
-iri:cc6edf61b9263ef76201a3f797cc576e8156609f a qb:Observation ;
+:cc6edf61b9263ef76201a3f797cc576e8156609f a qb:Observation ;
     qb:dataSet <> ;
     :age 22 ;
     :armed "Non-lethal firearm"^^xsd:string ;
@@ -6717,7 +6718,7 @@ iri:cc6edf61b9263ef76201a3f797cc576e8156609f a qb:Observation ;
     :uid "2016154"^^xsd:string ;
     :year 2016 .
 
-iri:cc7f8966eb68748ddbbff5d59418910976862255 a qb:Observation ;
+:cc7f8966eb68748ddbbff5d59418910976862255 a qb:Observation ;
     qb:dataSet <> ;
     :age 32 ;
     :armed "Knife"^^xsd:string ;
@@ -6732,7 +6733,7 @@ iri:cc7f8966eb68748ddbbff5d59418910976862255 a qb:Observation ;
     :uid "2016422"^^xsd:string ;
     :year 2016 .
 
-iri:ccda18ba6dde7c59b06a1dd6521267b3985f6c19 a qb:Observation ;
+:ccda18ba6dde7c59b06a1dd6521267b3985f6c19 a qb:Observation ;
     qb:dataSet <> ;
     :age 43 ;
     :armed "Firearm"^^xsd:string ;
@@ -6747,7 +6748,7 @@ iri:ccda18ba6dde7c59b06a1dd6521267b3985f6c19 a qb:Observation ;
     :uid "2016217"^^xsd:string ;
     :year 2016 .
 
-iri:cdf44befa4e6e758113a776697069ce4edf7c8b9 a qb:Observation ;
+:cdf44befa4e6e758113a776697069ce4edf7c8b9 a qb:Observation ;
     qb:dataSet <> ;
     :age "Unknown"^^xsd:integer ;
     :armed "Other"^^xsd:string ;
@@ -6762,7 +6763,7 @@ iri:cdf44befa4e6e758113a776697069ce4edf7c8b9 a qb:Observation ;
     :uid "2016475"^^xsd:string ;
     :year 2016 .
 
-iri:cf0163dc38a71cf248f2dbac6df4ca60cf7f0aee a qb:Observation ;
+:cf0163dc38a71cf248f2dbac6df4ca60cf7f0aee a qb:Observation ;
     qb:dataSet <> ;
     :age 25 ;
     :armed "No"^^xsd:string ;
@@ -6777,7 +6778,7 @@ iri:cf0163dc38a71cf248f2dbac6df4ca60cf7f0aee a qb:Observation ;
     :uid "2016335"^^xsd:string ;
     :year 2016 .
 
-iri:cf9019c8d8531a97115e62498902995efa8973de a qb:Observation ;
+:cf9019c8d8531a97115e62498902995efa8973de a qb:Observation ;
     qb:dataSet <> ;
     :age 55 ;
     :armed "Firearm"^^xsd:string ;
@@ -6792,7 +6793,7 @@ iri:cf9019c8d8531a97115e62498902995efa8973de a qb:Observation ;
     :uid "201660"^^xsd:string ;
     :year 2016 .
 
-iri:cfad81f322047e1dc7860ed6530cf583ec1723e5 a qb:Observation ;
+:cfad81f322047e1dc7860ed6530cf583ec1723e5 a qb:Observation ;
     qb:dataSet <> ;
     :age 28 ;
     :armed "No"^^xsd:string ;
@@ -6807,7 +6808,7 @@ iri:cfad81f322047e1dc7860ed6530cf583ec1723e5 a qb:Observation ;
     :uid "2016344"^^xsd:string ;
     :year 2016 .
 
-iri:d09160bf25c9ed02f3bf1be6ad7619107e55617f a qb:Observation ;
+:d09160bf25c9ed02f3bf1be6ad7619107e55617f a qb:Observation ;
     qb:dataSet <> ;
     :age 63 ;
     :armed "Firearm"^^xsd:string ;
@@ -6822,7 +6823,7 @@ iri:d09160bf25c9ed02f3bf1be6ad7619107e55617f a qb:Observation ;
     :uid "2016470"^^xsd:string ;
     :year 2016 .
 
-iri:d0df93cbab36aa47beab818b074d28baa71f9a73 a qb:Observation ;
+:d0df93cbab36aa47beab818b074d28baa71f9a73 a qb:Observation ;
     qb:dataSet <> ;
     :age 20 ;
     :armed "Knife"^^xsd:string ;
@@ -6837,7 +6838,7 @@ iri:d0df93cbab36aa47beab818b074d28baa71f9a73 a qb:Observation ;
     :uid "2016505"^^xsd:string ;
     :year 2016 .
 
-iri:d141888dd3f1d37d048676fb861e60e708083d08 a qb:Observation ;
+:d141888dd3f1d37d048676fb861e60e708083d08 a qb:Observation ;
     qb:dataSet <> ;
     :age 31 ;
     :armed "Other"^^xsd:string ;
@@ -6852,7 +6853,7 @@ iri:d141888dd3f1d37d048676fb861e60e708083d08 a qb:Observation ;
     :uid "2016477"^^xsd:string ;
     :year 2016 .
 
-iri:d19f40656cb047d1549e62afdedd6146f7ffc184 a qb:Observation ;
+:d19f40656cb047d1549e62afdedd6146f7ffc184 a qb:Observation ;
     qb:dataSet <> ;
     :age 16 ;
     :armed "Knife"^^xsd:string ;
@@ -6867,7 +6868,7 @@ iri:d19f40656cb047d1549e62afdedd6146f7ffc184 a qb:Observation ;
     :uid "2016160"^^xsd:string ;
     :year 2016 .
 
-iri:d1cb82e403c9a6ffac1cac435aab01008b8d780d a qb:Observation ;
+:d1cb82e403c9a6ffac1cac435aab01008b8d780d a qb:Observation ;
     qb:dataSet <> ;
     :age 29 ;
     :armed "Firearm"^^xsd:string ;
@@ -6882,7 +6883,7 @@ iri:d1cb82e403c9a6ffac1cac435aab01008b8d780d a qb:Observation ;
     :uid "2016247"^^xsd:string ;
     :year 2016 .
 
-iri:d1eeb134fd4196d07425328c024ba800b752dbdd a qb:Observation ;
+:d1eeb134fd4196d07425328c024ba800b752dbdd a qb:Observation ;
     qb:dataSet <> ;
     :age 32 ;
     :armed "Firearm"^^xsd:string ;
@@ -6897,7 +6898,7 @@ iri:d1eeb134fd4196d07425328c024ba800b752dbdd a qb:Observation ;
     :uid "2016118"^^xsd:string ;
     :year 2016 .
 
-iri:d25e564551808e588da24628a943dee2b8e39847 a qb:Observation ;
+:d25e564551808e588da24628a943dee2b8e39847 a qb:Observation ;
     qb:dataSet <> ;
     :age 21 ;
     :armed "Non-lethal firearm"^^xsd:string ;
@@ -6912,7 +6913,7 @@ iri:d25e564551808e588da24628a943dee2b8e39847 a qb:Observation ;
     :uid "2016361"^^xsd:string ;
     :year 2016 .
 
-iri:d28af2a319eefe04c3369f32774828cdb228b3fd a qb:Observation ;
+:d28af2a319eefe04c3369f32774828cdb228b3fd a qb:Observation ;
     qb:dataSet <> ;
     :age 51 ;
     :armed "Firearm"^^xsd:string ;
@@ -6927,7 +6928,7 @@ iri:d28af2a319eefe04c3369f32774828cdb228b3fd a qb:Observation ;
     :uid "2016261"^^xsd:string ;
     :year 2016 .
 
-iri:d2e8630fd551bae4443ab36924e7c939b263b35e a qb:Observation ;
+:d2e8630fd551bae4443ab36924e7c939b263b35e a qb:Observation ;
     qb:dataSet <> ;
     :age 45 ;
     :armed "Knife"^^xsd:string ;
@@ -6942,7 +6943,7 @@ iri:d2e8630fd551bae4443ab36924e7c939b263b35e a qb:Observation ;
     :uid "2016280"^^xsd:string ;
     :year 2016 .
 
-iri:d2f39b9993b6aa124d11596fb42a9bac1502266f a qb:Observation ;
+:d2f39b9993b6aa124d11596fb42a9bac1502266f a qb:Observation ;
     qb:dataSet <> ;
     :age 29 ;
     :armed "Firearm"^^xsd:string ;
@@ -6957,7 +6958,7 @@ iri:d2f39b9993b6aa124d11596fb42a9bac1502266f a qb:Observation ;
     :uid "2016360"^^xsd:string ;
     :year 2016 .
 
-iri:d3540581f52a8df5a0d644ef78150f1ca5595a37 a qb:Observation ;
+:d3540581f52a8df5a0d644ef78150f1ca5595a37 a qb:Observation ;
     qb:dataSet <> ;
     :age 47 ;
     :armed "Firearm"^^xsd:string ;
@@ -6972,7 +6973,7 @@ iri:d3540581f52a8df5a0d644ef78150f1ca5595a37 a qb:Observation ;
     :uid "201692"^^xsd:string ;
     :year 2016 .
 
-iri:d3c19c9a065ee2d49d5a57c88774fb555ad0ae0d a qb:Observation ;
+:d3c19c9a065ee2d49d5a57c88774fb555ad0ae0d a qb:Observation ;
     qb:dataSet <> ;
     :age 25 ;
     :armed "Unknown"^^xsd:string ;
@@ -6987,7 +6988,7 @@ iri:d3c19c9a065ee2d49d5a57c88774fb555ad0ae0d a qb:Observation ;
     :uid "2016219"^^xsd:string ;
     :year 2016 .
 
-iri:d41fe2d40e115bf17a02f661fdd76d9ac56642c0 a qb:Observation ;
+:d41fe2d40e115bf17a02f661fdd76d9ac56642c0 a qb:Observation ;
     qb:dataSet <> ;
     :age 44 ;
     :armed "Knife"^^xsd:string ;
@@ -7002,7 +7003,7 @@ iri:d41fe2d40e115bf17a02f661fdd76d9ac56642c0 a qb:Observation ;
     :uid "2016244"^^xsd:string ;
     :year 2016 .
 
-iri:d4bcf95b5de5115f6e1bf693ee38f23c9910f3bf a qb:Observation ;
+:d4bcf95b5de5115f6e1bf693ee38f23c9910f3bf a qb:Observation ;
     qb:dataSet <> ;
     :age 31 ;
     :armed "Firearm"^^xsd:string ;
@@ -7017,7 +7018,7 @@ iri:d4bcf95b5de5115f6e1bf693ee38f23c9910f3bf a qb:Observation ;
     :uid "201667"^^xsd:string ;
     :year 2016 .
 
-iri:d598d8a139a706c7fde26497cf84c55c566b1428 a qb:Observation ;
+:d598d8a139a706c7fde26497cf84c55c566b1428 a qb:Observation ;
     qb:dataSet <> ;
     :age 35 ;
     :armed "Firearm"^^xsd:string ;
@@ -7032,7 +7033,7 @@ iri:d598d8a139a706c7fde26497cf84c55c566b1428 a qb:Observation ;
     :uid "2016305"^^xsd:string ;
     :year 2016 .
 
-iri:d5ffd18eac80b07e06aad25b9967697a51afc040 a qb:Observation ;
+:d5ffd18eac80b07e06aad25b9967697a51afc040 a qb:Observation ;
     qb:dataSet <> ;
     :age "early 20s"^^xsd:integer ;
     :armed "Firearm"^^xsd:string ;
@@ -7047,7 +7048,7 @@ iri:d5ffd18eac80b07e06aad25b9967697a51afc040 a qb:Observation ;
     :uid "2016511"^^xsd:string ;
     :year 2016 .
 
-iri:d69ac02f4a6035389346118382c0066e9c4ff846 a qb:Observation ;
+:d69ac02f4a6035389346118382c0066e9c4ff846 a qb:Observation ;
     qb:dataSet <> ;
     :age 47 ;
     :armed "Firearm"^^xsd:string ;
@@ -7062,7 +7063,7 @@ iri:d69ac02f4a6035389346118382c0066e9c4ff846 a qb:Observation ;
     :uid "2016148"^^xsd:string ;
     :year 2016 .
 
-iri:d705970011b84d383aa3383d664c40dfd8f237bf a qb:Observation ;
+:d705970011b84d383aa3383d664c40dfd8f237bf a qb:Observation ;
     qb:dataSet <> ;
     :age 34 ;
     :armed "Non-lethal firearm"^^xsd:string ;
@@ -7077,7 +7078,7 @@ iri:d705970011b84d383aa3383d664c40dfd8f237bf a qb:Observation ;
     :uid "201629"^^xsd:string ;
     :year 2016 .
 
-iri:d7898ea814971326f0a83788706f9602e027b53a a qb:Observation ;
+:d7898ea814971326f0a83788706f9602e027b53a a qb:Observation ;
     qb:dataSet <> ;
     :age 37 ;
     :armed "Non-lethal firearm"^^xsd:string ;
@@ -7092,7 +7093,7 @@ iri:d7898ea814971326f0a83788706f9602e027b53a a qb:Observation ;
     :uid "2016136"^^xsd:string ;
     :year 2016 .
 
-iri:d7b0ca0aa74629afb033e7728e3e3299c0645517 a qb:Observation ;
+:d7b0ca0aa74629afb033e7728e3e3299c0645517 a qb:Observation ;
     qb:dataSet <> ;
     :age 38 ;
     :armed "Other"^^xsd:string ;
@@ -7107,7 +7108,7 @@ iri:d7b0ca0aa74629afb033e7728e3e3299c0645517 a qb:Observation ;
     :uid "201673"^^xsd:string ;
     :year 2016 .
 
-iri:d7c574025e9a21ed68f9718727165569eb86145c a qb:Observation ;
+:d7c574025e9a21ed68f9718727165569eb86145c a qb:Observation ;
     qb:dataSet <> ;
     :age 29 ;
     :armed "No"^^xsd:string ;
@@ -7122,7 +7123,7 @@ iri:d7c574025e9a21ed68f9718727165569eb86145c a qb:Observation ;
     :uid "2016388"^^xsd:string ;
     :year 2016 .
 
-iri:d8cfd102cdd40ee0b4ca316c83d8413af2d350a7 a qb:Observation ;
+:d8cfd102cdd40ee0b4ca316c83d8413af2d350a7 a qb:Observation ;
     qb:dataSet <> ;
     :age 45 ;
     :armed "Other"^^xsd:string ;
@@ -7137,7 +7138,7 @@ iri:d8cfd102cdd40ee0b4ca316c83d8413af2d350a7 a qb:Observation ;
     :uid "2016114"^^xsd:string ;
     :year 2016 .
 
-iri:d97c4c341a67cfd8da1c7960789b6a90ac8d1a8c a qb:Observation ;
+:d97c4c341a67cfd8da1c7960789b6a90ac8d1a8c a qb:Observation ;
     qb:dataSet <> ;
     :age 19 ;
     :armed "Firearm"^^xsd:string ;
@@ -7152,7 +7153,7 @@ iri:d97c4c341a67cfd8da1c7960789b6a90ac8d1a8c a qb:Observation ;
     :uid "2016251"^^xsd:string ;
     :year 2016 .
 
-iri:da0b03179ba0e42f2fe98cdc73696b77c2c924cd a qb:Observation ;
+:da0b03179ba0e42f2fe98cdc73696b77c2c924cd a qb:Observation ;
     qb:dataSet <> ;
     :age 67 ;
     :armed "No"^^xsd:string ;
@@ -7167,7 +7168,7 @@ iri:da0b03179ba0e42f2fe98cdc73696b77c2c924cd a qb:Observation ;
     :uid "201656"^^xsd:string ;
     :year 2016 .
 
-iri:da69116886ec851845d4354e0a9e6db2c290ac31 a qb:Observation ;
+:da69116886ec851845d4354e0a9e6db2c290ac31 a qb:Observation ;
     qb:dataSet <> ;
     :age 37 ;
     :armed "Knife"^^xsd:string ;
@@ -7182,7 +7183,7 @@ iri:da69116886ec851845d4354e0a9e6db2c290ac31 a qb:Observation ;
     :uid "20163"^^xsd:string ;
     :year 2016 .
 
-iri:da83c6a78978eeae91256694628a97e83ba85c58 a qb:Observation ;
+:da83c6a78978eeae91256694628a97e83ba85c58 a qb:Observation ;
     qb:dataSet <> ;
     :age 15 ;
     :armed "Firearm"^^xsd:string ;
@@ -7197,7 +7198,7 @@ iri:da83c6a78978eeae91256694628a97e83ba85c58 a qb:Observation ;
     :uid "2016310"^^xsd:string ;
     :year 2016 .
 
-iri:db3c77f3dea31e2c54d117b87e581bf0c4120b39 a qb:Observation ;
+:db3c77f3dea31e2c54d117b87e581bf0c4120b39 a qb:Observation ;
     qb:dataSet <> ;
     :age 29 ;
     :armed "Firearm"^^xsd:string ;
@@ -7212,7 +7213,7 @@ iri:db3c77f3dea31e2c54d117b87e581bf0c4120b39 a qb:Observation ;
     :uid "201677"^^xsd:string ;
     :year 2016 .
 
-iri:db9a865bc4060fbd2d97da4f9e578e6b61156bb7 a qb:Observation ;
+:db9a865bc4060fbd2d97da4f9e578e6b61156bb7 a qb:Observation ;
     qb:dataSet <> ;
     :age 38 ;
     :armed "Knife"^^xsd:string ;
@@ -7227,7 +7228,7 @@ iri:db9a865bc4060fbd2d97da4f9e578e6b61156bb7 a qb:Observation ;
     :uid "2016210"^^xsd:string ;
     :year 2016 .
 
-iri:dc63cf6d4b1c06b993d9cc671896770a04d64300 a qb:Observation ;
+:dc63cf6d4b1c06b993d9cc671896770a04d64300 a qb:Observation ;
     qb:dataSet <> ;
     :age 35 ;
     :armed "Other"^^xsd:string ;
@@ -7242,7 +7243,7 @@ iri:dc63cf6d4b1c06b993d9cc671896770a04d64300 a qb:Observation ;
     :uid "2016454"^^xsd:string ;
     :year 2016 .
 
-iri:dd7aba0c69fe81e6036617c19976b624a17f9faf a qb:Observation ;
+:dd7aba0c69fe81e6036617c19976b624a17f9faf a qb:Observation ;
     qb:dataSet <> ;
     :age 41 ;
     :armed "Vehicle"^^xsd:string ;
@@ -7257,7 +7258,7 @@ iri:dd7aba0c69fe81e6036617c19976b624a17f9faf a qb:Observation ;
     :uid "201685"^^xsd:string ;
     :year 2016 .
 
-iri:dd826867c9fe08de238dafb655ad9c7d2bd72fd6 a qb:Observation ;
+:dd826867c9fe08de238dafb655ad9c7d2bd72fd6 a qb:Observation ;
     qb:dataSet <> ;
     :age 41 ;
     :armed "No"^^xsd:string ;
@@ -7272,7 +7273,7 @@ iri:dd826867c9fe08de238dafb655ad9c7d2bd72fd6 a qb:Observation ;
     :uid "2016433"^^xsd:string ;
     :year 2016 .
 
-iri:dd9015e3669e98be5c9f95d238d9a1e83cfc0e25 a qb:Observation ;
+:dd9015e3669e98be5c9f95d238d9a1e83cfc0e25 a qb:Observation ;
     qb:dataSet <> ;
     :age 52 ;
     :armed "Knife"^^xsd:string ;
@@ -7287,7 +7288,7 @@ iri:dd9015e3669e98be5c9f95d238d9a1e83cfc0e25 a qb:Observation ;
     :uid "2016111"^^xsd:string ;
     :year 2016 .
 
-iri:ddb2981879cd0dd1328d70188e77884f24f4003f a qb:Observation ;
+:ddb2981879cd0dd1328d70188e77884f24f4003f a qb:Observation ;
     qb:dataSet <> ;
     :age 51 ;
     :armed "Knife"^^xsd:string ;
@@ -7302,7 +7303,7 @@ iri:ddb2981879cd0dd1328d70188e77884f24f4003f a qb:Observation ;
     :uid "2016129"^^xsd:string ;
     :year 2016 .
 
-iri:e060ddb1fe973fdbbe5a8750b47c69fb93c2ab08 a qb:Observation ;
+:e060ddb1fe973fdbbe5a8750b47c69fb93c2ab08 a qb:Observation ;
     qb:dataSet <> ;
     :age 37 ;
     :armed "No"^^xsd:string ;
@@ -7317,7 +7318,7 @@ iri:e060ddb1fe973fdbbe5a8750b47c69fb93c2ab08 a qb:Observation ;
     :uid "2016194"^^xsd:string ;
     :year 2016 .
 
-iri:e1083071e01d95a8b5a34725cef79ad5d6c55b24 a qb:Observation ;
+:e1083071e01d95a8b5a34725cef79ad5d6c55b24 a qb:Observation ;
     qb:dataSet <> ;
     :age 51 ;
     :armed "Knife"^^xsd:string ;
@@ -7332,7 +7333,7 @@ iri:e1083071e01d95a8b5a34725cef79ad5d6c55b24 a qb:Observation ;
     :uid "2016321"^^xsd:string ;
     :year 2016 .
 
-iri:e11d4294bf25ca965ad3abbbc67d814e5007c570 a qb:Observation ;
+:e11d4294bf25ca965ad3abbbc67d814e5007c570 a qb:Observation ;
     qb:dataSet <> ;
     :age 30 ;
     :armed "No"^^xsd:string ;
@@ -7347,7 +7348,7 @@ iri:e11d4294bf25ca965ad3abbbc67d814e5007c570 a qb:Observation ;
     :uid "2016487"^^xsd:string ;
     :year 2016 .
 
-iri:e171dbb7e0cd039698cbc779699784c8f602c397 a qb:Observation ;
+:e171dbb7e0cd039698cbc779699784c8f602c397 a qb:Observation ;
     qb:dataSet <> ;
     :age 19 ;
     :armed "Firearm"^^xsd:string ;
@@ -7362,7 +7363,7 @@ iri:e171dbb7e0cd039698cbc779699784c8f602c397 a qb:Observation ;
     :uid "2016289"^^xsd:string ;
     :year 2016 .
 
-iri:e216e97c6bea48906031396ec25ad93b216c387e a qb:Observation ;
+:e216e97c6bea48906031396ec25ad93b216c387e a qb:Observation ;
     qb:dataSet <> ;
     :age 29 ;
     :armed "Firearm"^^xsd:string ;
@@ -7377,7 +7378,7 @@ iri:e216e97c6bea48906031396ec25ad93b216c387e a qb:Observation ;
     :uid "2016368"^^xsd:string ;
     :year 2016 .
 
-iri:e25634f2a82bc6cb29a13bcdda7da58691cb663e a qb:Observation ;
+:e25634f2a82bc6cb29a13bcdda7da58691cb663e a qb:Observation ;
     qb:dataSet <> ;
     :age 56 ;
     :armed "Disputed"^^xsd:string ;
@@ -7392,7 +7393,7 @@ iri:e25634f2a82bc6cb29a13bcdda7da58691cb663e a qb:Observation ;
     :uid "2016165"^^xsd:string ;
     :year 2016 .
 
-iri:e2a41122478436d64689b4f6a1493287303c529c a qb:Observation ;
+:e2a41122478436d64689b4f6a1493287303c529c a qb:Observation ;
     qb:dataSet <> ;
     :age 20 ;
     :armed "No"^^xsd:string ;
@@ -7407,7 +7408,7 @@ iri:e2a41122478436d64689b4f6a1493287303c529c a qb:Observation ;
     :uid "2016207"^^xsd:string ;
     :year 2016 .
 
-iri:e321b6736fe91c45f11d540c05a6365b88b7c104 a qb:Observation ;
+:e321b6736fe91c45f11d540c05a6365b88b7c104 a qb:Observation ;
     qb:dataSet <> ;
     :age 28 ;
     :armed "Knife"^^xsd:string ;
@@ -7422,7 +7423,7 @@ iri:e321b6736fe91c45f11d540c05a6365b88b7c104 a qb:Observation ;
     :uid "2016370"^^xsd:string ;
     :year 2016 .
 
-iri:e3d99c806d92b4028215f7ab5990383859ccb7fe a qb:Observation ;
+:e3d99c806d92b4028215f7ab5990383859ccb7fe a qb:Observation ;
     qb:dataSet <> ;
     :age 52 ;
     :armed "Unknown"^^xsd:string ;
@@ -7437,7 +7438,7 @@ iri:e3d99c806d92b4028215f7ab5990383859ccb7fe a qb:Observation ;
     :uid "2016472"^^xsd:string ;
     :year 2016 .
 
-iri:e47108863c0be8e1c6868aa680bc9cc35095ad22 a qb:Observation ;
+:e47108863c0be8e1c6868aa680bc9cc35095ad22 a qb:Observation ;
     qb:dataSet <> ;
     :age 32 ;
     :armed "Firearm"^^xsd:string ;
@@ -7452,7 +7453,7 @@ iri:e47108863c0be8e1c6868aa680bc9cc35095ad22 a qb:Observation ;
     :uid "2016306"^^xsd:string ;
     :year 2016 .
 
-iri:e48da7142f3f98ceec384060aa137112139aa30a a qb:Observation ;
+:e48da7142f3f98ceec384060aa137112139aa30a a qb:Observation ;
     qb:dataSet <> ;
     :age 33 ;
     :armed "No"^^xsd:string ;
@@ -7467,7 +7468,7 @@ iri:e48da7142f3f98ceec384060aa137112139aa30a a qb:Observation ;
     :uid "2016435"^^xsd:string ;
     :year 2016 .
 
-iri:e4ca0b68aab3472813865fcd6c422045d7a2a565 a qb:Observation ;
+:e4ca0b68aab3472813865fcd6c422045d7a2a565 a qb:Observation ;
     qb:dataSet <> ;
     :age 26 ;
     :armed "Firearm"^^xsd:string ;
@@ -7482,7 +7483,7 @@ iri:e4ca0b68aab3472813865fcd6c422045d7a2a565 a qb:Observation ;
     :uid "2016208"^^xsd:string ;
     :year 2016 .
 
-iri:e52bb418e2a63c5daaf3ca074a2a7c29b21b3354 a qb:Observation ;
+:e52bb418e2a63c5daaf3ca074a2a7c29b21b3354 a qb:Observation ;
     qb:dataSet <> ;
     :age 40 ;
     :armed "Firearm"^^xsd:string ;
@@ -7497,7 +7498,7 @@ iri:e52bb418e2a63c5daaf3ca074a2a7c29b21b3354 a qb:Observation ;
     :uid "201649"^^xsd:string ;
     :year 2016 .
 
-iri:e625b96020192203723a7e5d0c9be962bec00c4c a qb:Observation ;
+:e625b96020192203723a7e5d0c9be962bec00c4c a qb:Observation ;
     qb:dataSet <> ;
     :age 39 ;
     :armed "Firearm"^^xsd:string ;
@@ -7512,7 +7513,7 @@ iri:e625b96020192203723a7e5d0c9be962bec00c4c a qb:Observation ;
     :uid "201652"^^xsd:string ;
     :year 2016 .
 
-iri:e65a2518c397df767c6933b134d806d95e36465b a qb:Observation ;
+:e65a2518c397df767c6933b134d806d95e36465b a qb:Observation ;
     qb:dataSet <> ;
     :age 24 ;
     :armed "Knife"^^xsd:string ;
@@ -7527,7 +7528,7 @@ iri:e65a2518c397df767c6933b134d806d95e36465b a qb:Observation ;
     :uid "201628"^^xsd:string ;
     :year 2016 .
 
-iri:e8f5d6f0c9e9980db9583e2934b82351b5d43702 a qb:Observation ;
+:e8f5d6f0c9e9980db9583e2934b82351b5d43702 a qb:Observation ;
     qb:dataSet <> ;
     :age 64 ;
     :armed "No"^^xsd:string ;
@@ -7542,7 +7543,7 @@ iri:e8f5d6f0c9e9980db9583e2934b82351b5d43702 a qb:Observation ;
     :uid "2016441"^^xsd:string ;
     :year 2016 .
 
-iri:e9410d72671a8aa167b63a8b4d44ebd73a87ecb2 a qb:Observation ;
+:e9410d72671a8aa167b63a8b4d44ebd73a87ecb2 a qb:Observation ;
     qb:dataSet <> ;
     :age 19 ;
     :armed "No"^^xsd:string ;
@@ -7557,7 +7558,7 @@ iri:e9410d72671a8aa167b63a8b4d44ebd73a87ecb2 a qb:Observation ;
     :uid "2016123"^^xsd:string ;
     :year 2016 .
 
-iri:e9a108c9ff05b57429c2e400ac0debaacf5f62d3 a qb:Observation ;
+:e9a108c9ff05b57429c2e400ac0debaacf5f62d3 a qb:Observation ;
     qb:dataSet <> ;
     :age 36 ;
     :armed "Unknown"^^xsd:string ;
@@ -7572,7 +7573,7 @@ iri:e9a108c9ff05b57429c2e400ac0debaacf5f62d3 a qb:Observation ;
     :uid "2016272"^^xsd:string ;
     :year 2016 .
 
-iri:e9a2f9e19e0d3c4b2cfe428b9afcc5c5da7856a8 a qb:Observation ;
+:e9a2f9e19e0d3c4b2cfe428b9afcc5c5da7856a8 a qb:Observation ;
     qb:dataSet <> ;
     :age 18 ;
     :armed "Non-lethal firearm"^^xsd:string ;
@@ -7587,7 +7588,7 @@ iri:e9a2f9e19e0d3c4b2cfe428b9afcc5c5da7856a8 a qb:Observation ;
     :uid "2016169"^^xsd:string ;
     :year 2016 .
 
-iri:e9b39d2f1f4a271858bdbb5476a3d3c407d240ee a qb:Observation ;
+:e9b39d2f1f4a271858bdbb5476a3d3c407d240ee a qb:Observation ;
     qb:dataSet <> ;
     :age 24 ;
     :armed "Firearm"^^xsd:string ;
@@ -7602,7 +7603,7 @@ iri:e9b39d2f1f4a271858bdbb5476a3d3c407d240ee a qb:Observation ;
     :uid "2016126"^^xsd:string ;
     :year 2016 .
 
-iri:e9ddd04db2493fcbe6a4f3f5d25a7e4ffe2526c7 a qb:Observation ;
+:e9ddd04db2493fcbe6a4f3f5d25a7e4ffe2526c7 a qb:Observation ;
     qb:dataSet <> ;
     :age 49 ;
     :armed "Firearm"^^xsd:string ;
@@ -7617,7 +7618,7 @@ iri:e9ddd04db2493fcbe6a4f3f5d25a7e4ffe2526c7 a qb:Observation ;
     :uid "2016459"^^xsd:string ;
     :year 2016 .
 
-iri:e9fc733e43360b3ee2851dbe2918c77b943a75e1 a qb:Observation ;
+:e9fc733e43360b3ee2851dbe2918c77b943a75e1 a qb:Observation ;
     qb:dataSet <> ;
     :age 59 ;
     :armed "Knife"^^xsd:string ;
@@ -7632,7 +7633,7 @@ iri:e9fc733e43360b3ee2851dbe2918c77b943a75e1 a qb:Observation ;
     :uid "2016350"^^xsd:string ;
     :year 2016 .
 
-iri:ea0e8f9dd4a44742efc74a3a72f72b849e8c48be a qb:Observation ;
+:ea0e8f9dd4a44742efc74a3a72f72b849e8c48be a qb:Observation ;
     qb:dataSet <> ;
     :age 26 ;
     :armed "Firearm"^^xsd:string ;
@@ -7647,7 +7648,7 @@ iri:ea0e8f9dd4a44742efc74a3a72f72b849e8c48be a qb:Observation ;
     :uid "2016298"^^xsd:string ;
     :year 2016 .
 
-iri:eab66d7226adcb9fa35864281e16b57d2d010bb3 a qb:Observation ;
+:eab66d7226adcb9fa35864281e16b57d2d010bb3 a qb:Observation ;
     qb:dataSet <> ;
     :age 46 ;
     :armed "Knife"^^xsd:string ;
@@ -7662,7 +7663,7 @@ iri:eab66d7226adcb9fa35864281e16b57d2d010bb3 a qb:Observation ;
     :uid "201680"^^xsd:string ;
     :year 2016 .
 
-iri:ead93f5f03020e08e49df9bc54ee470ef09496c0 a qb:Observation ;
+:ead93f5f03020e08e49df9bc54ee470ef09496c0 a qb:Observation ;
     qb:dataSet <> ;
     :age 26 ;
     :armed "Firearm"^^xsd:string ;
@@ -7677,7 +7678,7 @@ iri:ead93f5f03020e08e49df9bc54ee470ef09496c0 a qb:Observation ;
     :uid "2016355"^^xsd:string ;
     :year 2016 .
 
-iri:ec499570490ed1d7636d1c40f3abbc6170a77067 a qb:Observation ;
+:ec499570490ed1d7636d1c40f3abbc6170a77067 a qb:Observation ;
     qb:dataSet <> ;
     :age 34 ;
     :armed "Firearm"^^xsd:string ;
@@ -7692,7 +7693,7 @@ iri:ec499570490ed1d7636d1c40f3abbc6170a77067 a qb:Observation ;
     :uid "2016498"^^xsd:string ;
     :year 2016 .
 
-iri:ed313f628401c3112215b2b3146b66cce5e7c703 a qb:Observation ;
+:ed313f628401c3112215b2b3146b66cce5e7c703 a qb:Observation ;
     qb:dataSet <> ;
     :age 23 ;
     :armed "Firearm"^^xsd:string ;
@@ -7707,7 +7708,7 @@ iri:ed313f628401c3112215b2b3146b66cce5e7c703 a qb:Observation ;
     :uid "2016504"^^xsd:string ;
     :year 2016 .
 
-iri:ed65135ffaa46d80a9286c97b9ea2dc26ccca35a a qb:Observation ;
+:ed65135ffaa46d80a9286c97b9ea2dc26ccca35a a qb:Observation ;
     qb:dataSet <> ;
     :age 46 ;
     :armed "Knife"^^xsd:string ;
@@ -7722,7 +7723,7 @@ iri:ed65135ffaa46d80a9286c97b9ea2dc26ccca35a a qb:Observation ;
     :uid "2016515"^^xsd:string ;
     :year 2016 .
 
-iri:edc35748eeeb63b9090c322ea27265fd66c8f754 a qb:Observation ;
+:edc35748eeeb63b9090c322ea27265fd66c8f754 a qb:Observation ;
     qb:dataSet <> ;
     :age 60 ;
     :armed "Other"^^xsd:string ;
@@ -7737,7 +7738,7 @@ iri:edc35748eeeb63b9090c322ea27265fd66c8f754 a qb:Observation ;
     :uid "2016276"^^xsd:string ;
     :year 2016 .
 
-iri:ee205dd91d21fa640b64c339152f037b0581c97f a qb:Observation ;
+:ee205dd91d21fa640b64c339152f037b0581c97f a qb:Observation ;
     qb:dataSet <> ;
     :age 43 ;
     :armed "Vehicle"^^xsd:string ;
@@ -7752,7 +7753,7 @@ iri:ee205dd91d21fa640b64c339152f037b0581c97f a qb:Observation ;
     :uid "2016492"^^xsd:string ;
     :year 2016 .
 
-iri:ee6d3b4f246df8d10a075c770f6f0907d912248e a qb:Observation ;
+:ee6d3b4f246df8d10a075c770f6f0907d912248e a qb:Observation ;
     qb:dataSet <> ;
     :age 31 ;
     :armed "Firearm"^^xsd:string ;
@@ -7767,7 +7768,7 @@ iri:ee6d3b4f246df8d10a075c770f6f0907d912248e a qb:Observation ;
     :uid "2016404"^^xsd:string ;
     :year 2016 .
 
-iri:f01985dd06282779c8b2b70d52e7eadd9fe5328f a qb:Observation ;
+:f01985dd06282779c8b2b70d52e7eadd9fe5328f a qb:Observation ;
     qb:dataSet <> ;
     :age 54 ;
     :armed "Firearm"^^xsd:string ;
@@ -7782,7 +7783,7 @@ iri:f01985dd06282779c8b2b70d52e7eadd9fe5328f a qb:Observation ;
     :uid "2016337"^^xsd:string ;
     :year 2016 .
 
-iri:f030e46dec558d81d8dbb525154da03cec01c69c a qb:Observation ;
+:f030e46dec558d81d8dbb525154da03cec01c69c a qb:Observation ;
     qb:dataSet <> ;
     :age "Unknown"^^xsd:integer ;
     :armed "Knife"^^xsd:string ;
@@ -7797,7 +7798,7 @@ iri:f030e46dec558d81d8dbb525154da03cec01c69c a qb:Observation ;
     :uid "2016450"^^xsd:string ;
     :year 2016 .
 
-iri:f1d35c57543ca9423719cc1c5c1b83a34cc06839 a qb:Observation ;
+:f1d35c57543ca9423719cc1c5c1b83a34cc06839 a qb:Observation ;
     qb:dataSet <> ;
     :age 33 ;
     :armed "Firearm"^^xsd:string ;
@@ -7812,7 +7813,7 @@ iri:f1d35c57543ca9423719cc1c5c1b83a34cc06839 a qb:Observation ;
     :uid "2016220"^^xsd:string ;
     :year 2016 .
 
-iri:f2073fa588336ecc9fd1f8d0e85ce1447c4a4bc5 a qb:Observation ;
+:f2073fa588336ecc9fd1f8d0e85ce1447c4a4bc5 a qb:Observation ;
     qb:dataSet <> ;
     :age 25 ;
     :armed "Firearm"^^xsd:string ;
@@ -7827,7 +7828,7 @@ iri:f2073fa588336ecc9fd1f8d0e85ce1447c4a4bc5 a qb:Observation ;
     :uid "2016271"^^xsd:string ;
     :year 2016 .
 
-iri:f2b2b411f2c1f1d79d627eae94a82a04719be320 a qb:Observation ;
+:f2b2b411f2c1f1d79d627eae94a82a04719be320 a qb:Observation ;
     qb:dataSet <> ;
     :age 33 ;
     :armed "Firearm"^^xsd:string ;
@@ -7842,7 +7843,7 @@ iri:f2b2b411f2c1f1d79d627eae94a82a04719be320 a qb:Observation ;
     :uid "2016259"^^xsd:string ;
     :year 2016 .
 
-iri:f2c42f99df3b7cf41bce7d43c9103b4fc6a3947c a qb:Observation ;
+:f2c42f99df3b7cf41bce7d43c9103b4fc6a3947c a qb:Observation ;
     qb:dataSet <> ;
     :age 53 ;
     :armed "No"^^xsd:string ;
@@ -7857,7 +7858,7 @@ iri:f2c42f99df3b7cf41bce7d43c9103b4fc6a3947c a qb:Observation ;
     :uid "2016326"^^xsd:string ;
     :year 2016 .
 
-iri:f4038eaf35b633366fab36397297b2214cb53e72 a qb:Observation ;
+:f4038eaf35b633366fab36397297b2214cb53e72 a qb:Observation ;
     qb:dataSet <> ;
     :age 26 ;
     :armed "Vehicle"^^xsd:string ;
@@ -7872,7 +7873,7 @@ iri:f4038eaf35b633366fab36397297b2214cb53e72 a qb:Observation ;
     :uid "2016163"^^xsd:string ;
     :year 2016 .
 
-iri:f453332c2e79a1c84eacb9d206b9f8851d248f13 a qb:Observation ;
+:f453332c2e79a1c84eacb9d206b9f8851d248f13 a qb:Observation ;
     qb:dataSet <> ;
     :age 39 ;
     :armed "Firearm"^^xsd:string ;
@@ -7887,7 +7888,7 @@ iri:f453332c2e79a1c84eacb9d206b9f8851d248f13 a qb:Observation ;
     :uid "2016174"^^xsd:string ;
     :year 2016 .
 
-iri:f4920e95db47c6c23b204f524b212a7cc010cffa a qb:Observation ;
+:f4920e95db47c6c23b204f524b212a7cc010cffa a qb:Observation ;
     qb:dataSet <> ;
     :age 31 ;
     :armed "Knife"^^xsd:string ;
@@ -7902,7 +7903,7 @@ iri:f4920e95db47c6c23b204f524b212a7cc010cffa a qb:Observation ;
     :uid "2016393"^^xsd:string ;
     :year 2016 .
 
-iri:f4f600a4be048c88a0d36bb392e9eb8613dc84ef a qb:Observation ;
+:f4f600a4be048c88a0d36bb392e9eb8613dc84ef a qb:Observation ;
     qb:dataSet <> ;
     :age 22 ;
     :armed "Firearm"^^xsd:string ;
@@ -7917,7 +7918,7 @@ iri:f4f600a4be048c88a0d36bb392e9eb8613dc84ef a qb:Observation ;
     :uid "2016182"^^xsd:string ;
     :year 2016 .
 
-iri:f50d11484922cb3ba7ae05b04d997196300f9db0 a qb:Observation ;
+:f50d11484922cb3ba7ae05b04d997196300f9db0 a qb:Observation ;
     qb:dataSet <> ;
     :age 34 ;
     :armed "Other"^^xsd:string ;
@@ -7932,7 +7933,7 @@ iri:f50d11484922cb3ba7ae05b04d997196300f9db0 a qb:Observation ;
     :uid "2016333"^^xsd:string ;
     :year 2016 .
 
-iri:f5b8fb0564c5f4cdd24879be10b4475ec1f8e86d a qb:Observation ;
+:f5b8fb0564c5f4cdd24879be10b4475ec1f8e86d a qb:Observation ;
     qb:dataSet <> ;
     :age 43 ;
     :armed "Firearm"^^xsd:string ;
@@ -7947,7 +7948,7 @@ iri:f5b8fb0564c5f4cdd24879be10b4475ec1f8e86d a qb:Observation ;
     :uid "2016466"^^xsd:string ;
     :year 2016 .
 
-iri:f66b0bee4265521e9509d87b42220f9280e0a0d4 a qb:Observation ;
+:f66b0bee4265521e9509d87b42220f9280e0a0d4 a qb:Observation ;
     qb:dataSet <> ;
     :age 21 ;
     :armed "Unknown"^^xsd:string ;
@@ -7962,7 +7963,7 @@ iri:f66b0bee4265521e9509d87b42220f9280e0a0d4 a qb:Observation ;
     :uid "2016324"^^xsd:string ;
     :year 2016 .
 
-iri:f66dd6f083225a9a78d2124055e26856d498c897 a qb:Observation ;
+:f66dd6f083225a9a78d2124055e26856d498c897 a qb:Observation ;
     qb:dataSet <> ;
     :age 18 ;
     :armed "Firearm"^^xsd:string ;
@@ -7977,7 +7978,7 @@ iri:f66dd6f083225a9a78d2124055e26856d498c897 a qb:Observation ;
     :uid "2016483"^^xsd:string ;
     :year 2016 .
 
-iri:f739e4cdffd6146b800a585e7cb720c66c83836d a qb:Observation ;
+:f739e4cdffd6146b800a585e7cb720c66c83836d a qb:Observation ;
     qb:dataSet <> ;
     :age 65 ;
     :armed "Other"^^xsd:string ;
@@ -7992,7 +7993,7 @@ iri:f739e4cdffd6146b800a585e7cb720c66c83836d a qb:Observation ;
     :uid "2016267"^^xsd:string ;
     :year 2016 .
 
-iri:f793b6db327ffe4ab97fa07c7bc51a5e21e89cd3 a qb:Observation ;
+:f793b6db327ffe4ab97fa07c7bc51a5e21e89cd3 a qb:Observation ;
     qb:dataSet <> ;
     :age 32 ;
     :armed "Unknown"^^xsd:string ;
@@ -8007,7 +8008,7 @@ iri:f793b6db327ffe4ab97fa07c7bc51a5e21e89cd3 a qb:Observation ;
     :uid "2016473"^^xsd:string ;
     :year 2016 .
 
-iri:f7fb48167429e07acc80c3e0329fc4e0998ca563 a qb:Observation ;
+:f7fb48167429e07acc80c3e0329fc4e0998ca563 a qb:Observation ;
     qb:dataSet <> ;
     :age 33 ;
     :armed "Firearm"^^xsd:string ;
@@ -8022,7 +8023,7 @@ iri:f7fb48167429e07acc80c3e0329fc4e0998ca563 a qb:Observation ;
     :uid "201669"^^xsd:string ;
     :year 2016 .
 
-iri:f826feb380b31c8f8c76535edc9e15f34a0dd7ec a qb:Observation ;
+:f826feb380b31c8f8c76535edc9e15f34a0dd7ec a qb:Observation ;
     qb:dataSet <> ;
     :age 46 ;
     :armed "No"^^xsd:string ;
@@ -8037,7 +8038,7 @@ iri:f826feb380b31c8f8c76535edc9e15f34a0dd7ec a qb:Observation ;
     :uid "2016460"^^xsd:string ;
     :year 2016 .
 
-iri:f83153e76f362153676651e85272895aa567515c a qb:Observation ;
+:f83153e76f362153676651e85272895aa567515c a qb:Observation ;
     qb:dataSet <> ;
     :age 23 ;
     :armed "Firearm"^^xsd:string ;
@@ -8052,7 +8053,7 @@ iri:f83153e76f362153676651e85272895aa567515c a qb:Observation ;
     :uid "2016170"^^xsd:string ;
     :year 2016 .
 
-iri:f855e5bb7ba960d210397659796b17b4201f586f a qb:Observation ;
+:f855e5bb7ba960d210397659796b17b4201f586f a qb:Observation ;
     qb:dataSet <> ;
     :age 25 ;
     :armed "Other"^^xsd:string ;
@@ -8067,7 +8068,7 @@ iri:f855e5bb7ba960d210397659796b17b4201f586f a qb:Observation ;
     :uid "2016241"^^xsd:string ;
     :year 2016 .
 
-iri:f8ff6151a30321a361476c13cc0c70004ee43ad8 a qb:Observation ;
+:f8ff6151a30321a361476c13cc0c70004ee43ad8 a qb:Observation ;
     qb:dataSet <> ;
     :age 15 ;
     :armed "No"^^xsd:string ;
@@ -8082,7 +8083,7 @@ iri:f8ff6151a30321a361476c13cc0c70004ee43ad8 a qb:Observation ;
     :uid "2016465"^^xsd:string ;
     :year 2016 .
 
-iri:f9547ef9d3c22fe6dae73eb054f26f3a195e1289 a qb:Observation ;
+:f9547ef9d3c22fe6dae73eb054f26f3a195e1289 a qb:Observation ;
     qb:dataSet <> ;
     :age 23 ;
     :armed "No"^^xsd:string ;
@@ -8097,7 +8098,7 @@ iri:f9547ef9d3c22fe6dae73eb054f26f3a195e1289 a qb:Observation ;
     :uid "2016110"^^xsd:string ;
     :year 2016 .
 
-iri:fa3bb64301a19aefb916cf06f8d937f0e0f45570 a qb:Observation ;
+:fa3bb64301a19aefb916cf06f8d937f0e0f45570 a qb:Observation ;
     qb:dataSet <> ;
     :age 26 ;
     :armed "Firearm"^^xsd:string ;
@@ -8112,7 +8113,7 @@ iri:fa3bb64301a19aefb916cf06f8d937f0e0f45570 a qb:Observation ;
     :uid "201655"^^xsd:string ;
     :year 2016 .
 
-iri:fa837f3dc437c7e291d532eacab49e04bc66d7bd a qb:Observation ;
+:fa837f3dc437c7e291d532eacab49e04bc66d7bd a qb:Observation ;
     qb:dataSet <> ;
     :age 24 ;
     :armed "No"^^xsd:string ;
@@ -8127,7 +8128,7 @@ iri:fa837f3dc437c7e291d532eacab49e04bc66d7bd a qb:Observation ;
     :uid "2016423"^^xsd:string ;
     :year 2016 .
 
-iri:fa86ad71299219daad2192223629d5d260192245 a qb:Observation ;
+:fa86ad71299219daad2192223629d5d260192245 a qb:Observation ;
     qb:dataSet <> ;
     :age 40 ;
     :armed "Firearm"^^xsd:string ;
@@ -8142,7 +8143,7 @@ iri:fa86ad71299219daad2192223629d5d260192245 a qb:Observation ;
     :uid "2016221"^^xsd:string ;
     :year 2016 .
 
-iri:fbc130f41f85921b7518ea93964cacacdd24c333 a qb:Observation ;
+:fbc130f41f85921b7518ea93964cacacdd24c333 a qb:Observation ;
     qb:dataSet <> ;
     :age 35 ;
     :armed "Knife"^^xsd:string ;
@@ -8157,7 +8158,7 @@ iri:fbc130f41f85921b7518ea93964cacacdd24c333 a qb:Observation ;
     :uid "2016389"^^xsd:string ;
     :year 2016 .
 
-iri:fbce1b243ec1ad6de49dee750e28a8097eb4f286 a qb:Observation ;
+:fbce1b243ec1ad6de49dee750e28a8097eb4f286 a qb:Observation ;
     qb:dataSet <> ;
     :age 55 ;
     :armed "Vehicle"^^xsd:string ;
@@ -8172,7 +8173,7 @@ iri:fbce1b243ec1ad6de49dee750e28a8097eb4f286 a qb:Observation ;
     :uid "201638"^^xsd:string ;
     :year 2016 .
 
-iri:fbf86896564a87652a4f2afafb526d94a456c13a a qb:Observation ;
+:fbf86896564a87652a4f2afafb526d94a456c13a a qb:Observation ;
     qb:dataSet <> ;
     :age 24 ;
     :armed "Firearm"^^xsd:string ;
@@ -8187,7 +8188,7 @@ iri:fbf86896564a87652a4f2afafb526d94a456c13a a qb:Observation ;
     :uid "2016205"^^xsd:string ;
     :year 2016 .
 
-iri:fc185a3f8768d6c34e31d826941eb0106be482d6 a qb:Observation ;
+:fc185a3f8768d6c34e31d826941eb0106be482d6 a qb:Observation ;
     qb:dataSet <> ;
     :age 53 ;
     :armed "Firearm"^^xsd:string ;
@@ -8202,7 +8203,7 @@ iri:fc185a3f8768d6c34e31d826941eb0106be482d6 a qb:Observation ;
     :uid "2016392"^^xsd:string ;
     :year 2016 .
 
-iri:fc4f925cb44666af4e62ec47aa300408a3862ee2 a qb:Observation ;
+:fc4f925cb44666af4e62ec47aa300408a3862ee2 a qb:Observation ;
     qb:dataSet <> ;
     :age 50 ;
     :armed "Firearm"^^xsd:string ;
@@ -8217,7 +8218,7 @@ iri:fc4f925cb44666af4e62ec47aa300408a3862ee2 a qb:Observation ;
     :uid "2016196"^^xsd:string ;
     :year 2016 .
 
-iri:fcc67e64f80ebfe01ae33ce2af59187958231a4c a qb:Observation ;
+:fcc67e64f80ebfe01ae33ce2af59187958231a4c a qb:Observation ;
     qb:dataSet <> ;
     :age 64 ;
     :armed "Firearm"^^xsd:string ;
@@ -8232,7 +8233,7 @@ iri:fcc67e64f80ebfe01ae33ce2af59187958231a4c a qb:Observation ;
     :uid "201674"^^xsd:string ;
     :year 2016 .
 
-iri:fd631343fc277125e275f61ffa86e008bea9051c a qb:Observation ;
+:fd631343fc277125e275f61ffa86e008bea9051c a qb:Observation ;
     qb:dataSet <> ;
     :age 50 ;
     :armed "Unknown"^^xsd:string ;
@@ -8247,7 +8248,7 @@ iri:fd631343fc277125e275f61ffa86e008bea9051c a qb:Observation ;
     :uid "2016420"^^xsd:string ;
     :year 2016 .
 
-iri:fda7caaaa70a8e17ed808143ba5339126eaac006 a qb:Observation ;
+:fda7caaaa70a8e17ed808143ba5339126eaac006 a qb:Observation ;
     qb:dataSet <> ;
     :age 27 ;
     :armed "Knife"^^xsd:string ;
@@ -8262,7 +8263,7 @@ iri:fda7caaaa70a8e17ed808143ba5339126eaac006 a qb:Observation ;
     :uid "2016178"^^xsd:string ;
     :year 2016 .
 
-iri:ff2f14a0184a1513e97ed6f5c2748bd63a95e2c0 a qb:Observation ;
+:ff2f14a0184a1513e97ed6f5c2748bd63a95e2c0 a qb:Observation ;
     qb:dataSet <> ;
     :age 38 ;
     :armed "Firearm"^^xsd:string ;
@@ -8277,7 +8278,7 @@ iri:ff2f14a0184a1513e97ed6f5c2748bd63a95e2c0 a qb:Observation ;
     :uid "2016150"^^xsd:string ;
     :year 2016 .
 
-iri:ff4877e2680dbffe14bb4eb1c7d8b4eae39d85a8 a qb:Observation ;
+:ff4877e2680dbffe14bb4eb1c7d8b4eae39d85a8 a qb:Observation ;
     qb:dataSet <> ;
     :age 28 ;
     :armed "Firearm"^^xsd:string ;
@@ -8292,7 +8293,7 @@ iri:ff4877e2680dbffe14bb4eb1c7d8b4eae39d85a8 a qb:Observation ;
     :uid "2016425"^^xsd:string ;
     :year 2016 .
 
-iri:ff8948465eb64afb792ebf990f20246289fc7dba a qb:Observation ;
+:ff8948465eb64afb792ebf990f20246289fc7dba a qb:Observation ;
     qb:dataSet <> ;
     :age 49 ;
     :armed "Firearm"^^xsd:string ;
@@ -8355,9 +8356,9 @@ iri:ff8948465eb64afb792ebf990f20246289fc7dba a qb:Observation ;
     qb:concept :Name ;
     rdfs:range xsd:string .
 
-:race-ethnicity-uknown a :RaceEthnicity,
+:race-ethnicity-unknown a :RaceEthnicity,
         skos:Concept ;
-    skos:notation "Uknown" ;
+    skos:notation "unknown" ;
     skos:prefLabel "Unknown" ;
     skos:topConceptOf :RaceEthnicityConceptScheme .
 
@@ -8476,11 +8477,11 @@ iri:ff8948465eb64afb792ebf990f20246289fc7dba a qb:Observation ;
         :race-ethnicity-black,
         :race-ethnicity-hispanic-latino,
         :race-ethnicity-native-american,
-        :race-ethnicity-uknown,
+        :race-ethnicity-unknown,
         :race-ethnicity-white ;
     skos:notation "race_ethnicity" .
 
-:the--datadict.csv a qb:DataStructureDefinition ;
+:the-counted-datadict.csv a qb:DataStructureDefinition ;
     qb:component [ qb:measure :name ],
         [ qb:measure :age ],
         [ qb:measure :law_enforcement_agency ],
@@ -8507,11 +8508,12 @@ iri:ff8948465eb64afb792ebf990f20246289fc7dba a qb:Observation ;
     qb:sliceKey :sliceByGenderRaceEthnicity .
 
 <> a qb:DataSet ;
-    dct:description "People Killed in the US" ;
+    dct:description "The Counted - People Killed By Police in the US." ;
+    dcat:downloadURL <http://interactive.guim.co.uk/2015/the-counted/thecounted-data.zip> ;
     dct:issued "6/1/16"^^xsd:date ;
     dct:publisher "The Guardian" ;
     dct:subject <http://dbpedia.org/resource/Police_violence> ;
-    dct:title "The " ;
+    dct:title "The Counted" ;
     qb:slice <19de99fd5d2d348399176e5c42ead36163b63761>,
         <2e992ea723f7a91744d3799064c12b875067c604>,
         <389a4d1cde76ab7da1721e542579a6ff70de1b5c>,
@@ -8520,7 +8522,7 @@ iri:ff8948465eb64afb792ebf990f20246289fc7dba a qb:Observation ;
         <7a91cf2cf6742bc35b83e5c29096a4b8a82bc246>,
         <9a0f31cea5d0c48f507db0189b009c52fca50b76>,
         <9a4a6fe6a026739f6365d40e0780f291ee7b0242>,
-        iri:a216eb29b15824bc153dcd1f6d28deee272dd8b6,
-        iri:adf004a45e1e84ba95d747d8b7acfb9e84bbcc20,
-        iri:c6db3aa73238da227e6cfe637b35f62d1634419f ;
-    qb:structure :the--datadict.csv .
+        :a216eb29b15824bc153dcd1f6d28deee272dd8b6,
+        :adf004a45e1e84ba95d747d8b7acfb9e84bbcc20,
+        :c6db3aa73238da227e6cfe637b35f62d1634419f ;
+    qb:structure :the-counted-datadict.csv .
